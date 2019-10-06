@@ -1,0 +1,15 @@
+site_name: ForFansubsJSApp / Wiki
+site_url: https://ayberktandogan.github.io/ForFansubs-Wiki
+repo_url: https://github.com/ayberktandogan/ForFansubs-Wiki
+site_description: "ForFansubs paketlerinin nasıl kullanılacağını öğreten wiki"
+theme:
+  language: 'tr'
+  palette: 'red'
+  font: 'roboto'
+  logo: 'assets/images/logo.png'
+  favicon: 'assets/images/favicon.ico'
+  feature:
+    tabs: false
+  name: null
+  custom_dir: 'mkdocs-material/material'
+copyright: <a href="https://aybertocarlos.github.io" target="_blank" rel="noopener noreferrer">aybertocarlos © 2019</a>
