@@ -13,7 +13,7 @@
         <meta name="description" content="ForFansubs paketlerinin nasıl kullanılacağını öğreten wiki">
       
       
-        <link rel="canonical" href="https://ayberktandogan.github.io/ForFansubs-Wiki/gereken-programlar/">
+        <link rel="canonical" href="https://ayberktandogan.github.io/ForFansubs-Wiki/environment-variables/">
       
       
       
@@ -40,7 +40,7 @@
     
     
       
-        <title>Gereken Programlar - ForFansubsJSApp / Wiki</title>
+        <title>Environment Variables (.env) - ForFansubsJSApp / Wiki</title>
       
     
     
@@ -81,7 +81,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#gereken-programlar" tabindex="1" class="md-skip">
+      <a href="#environment-variables-env" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -107,7 +107,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Gereken Programlar
+                Environment Variables (.env)
               
             </span>
           
@@ -228,110 +228,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Gereken Programlar
-      </label>
-    
-    <a href="./" title="Gereken Programlar" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../gereken-programlar/" title="Gereken Programlar" class="md-nav__link">
       Gereken Programlar
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">İçindekiler</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#gerekli-programlar" class="md-nav__link">
-    Gerekli Programlar
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#nodejs" class="md-nav__link">
-    NodeJS
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#npm" class="md-nav__link">
-    npm
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#yarn" class="md-nav__link">
-    yarn
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#mariadb" class="md-nav__link">
-    MariaDB
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#git" class="md-nav__link">
-    Git
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gerekli-global-paketler" class="md-nav__link">
-    Gerekli Global Paketler
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#nodemon" class="md-nav__link">
-    nodemon
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
     
@@ -363,11 +264,63 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="../environment-variables/" title="Environment Variables (.env)" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Environment Variables (.env)
+      </label>
+    
+    <a href="./" title="Environment Variables (.env)" class="md-nav__link md-nav__link--active">
       Environment Variables (.env)
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">İçindekiler</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#back-end-env" class="md-nav__link">
+    Back-end .env
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#front-end-client-env" class="md-nav__link">
+    Front-end Client .env
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#front-end-admin-env" class="md-nav__link">
+    Front-end Admin .env
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -392,70 +345,23 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#gerekli-programlar" class="md-nav__link">
-    Gerekli Programlar
+  <a href="#back-end-env" class="md-nav__link">
+    Back-end .env
   </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#nodejs" class="md-nav__link">
-    NodeJS
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#npm" class="md-nav__link">
-    npm
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#yarn" class="md-nav__link">
-    yarn
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#mariadb" class="md-nav__link">
-    MariaDB
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#git" class="md-nav__link">
-    Git
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#gerekli-global-paketler" class="md-nav__link">
-    Gerekli Global Paketler
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#nodemon" class="md-nav__link">
-    nodemon
+  <a href="#front-end-client-env" class="md-nav__link">
+    Front-end Client .env
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#front-end-admin-env" class="md-nav__link">
+    Front-end Admin .env
+  </a>
   
 </li>
       
@@ -475,26 +381,50 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/ayberktandogan/ForFansubs-Wiki/edit/master/docs/gereken-programlar.md" title="Düzenle" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/ayberktandogan/ForFansubs-Wiki/edit/master/docs/environment-variables.md" title="Düzenle" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="gereken-programlar">Gereken Programlar</h1>
-<h2 id="gerekli-programlar">Gerekli Programlar</h2>
-<h4 id="nodejs">NodeJS</h4>
-<p><a href="https://nodejs.org/en/">NodeJS</a>'i buradan indirebilirsiniz. ^8.5.0</p>
-<h4 id="npm">npm</h4>
-<p>NodeJS'le beraber gelen bir paket. Ayrıca kurmaya gerek yok.</p>
-<h4 id="yarn">yarn</h4>
-<p><a href="https://yarnpkg.com/lang/en/">Yarn</a>'ı buradan indirebilirsiniz.</p>
-<h4 id="mariadb">MariaDB</h4>
-<p><a href="https://mariadb.org/">MariaDB</a>'yi buradan indirebilirsiniz. ^10.3</p>
-<h4 id="git">Git</h4>
-<p><a href="https://git-scm.com/">git</a>'i buradan indirebilirsiniz. ^2.23.0</p>
-<h2 id="gerekli-global-paketler">Gerekli Global Paketler</h2>
-<hr />
-<p>NodeJS ve npm'i yükledikten sonra herhangi bir komut ekranını açın.</p>
-<h4 id="nodemon">nodemon</h4>
-<p><code>npm install -g nodemon</code> ile indirebilirsiniz.</p>
+                <h1 id="environment-variables-env">Environment Variables (.env)</h1>
+<p>Yükleme ve yayın sayfalarında .env'den bahsedip durduk. Bu dosyalar, servisin ve front-end paketlerindeki detayların grubunuza özel olmasını sağlayacak değerleri tutuyor.</p>
+<h2 id="back-end-env">Back-end .env</h2>
+<pre><code class="env">PORT=                           // Servisin çalışacağı port.
+HOST_URL=                       // Servisin çalışacağı url.
+NODE_ENV=                       // Servisin çalışacağı enviroment.
+SITE_NAME=                      // Sitenin ismi. (Örn: PuzzleSubs)
+SECRET_OR_KEY=                  // Passportjs'in kullanacağı secret key.
+DISCORD_ANIME_WH=               // Discord Anime kanalı Webhook
+DISCORD_EPISODE_WH=             // Discord Bölüm kanalı Webhook
+DISCORD_MANGA_WH=               // Discord Manga kanalı Webhook
+DB_HOST=                        // MariaDB Host
+DB_USER=                        // MariaDB Kullanıcı ismi
+DB_NAME=                        // MariaDB Database ismi
+DB_PASSWORD=                    // MariaDB Kullanıcı şifre
+DB_CONNECTION_LIMIT=100         // MariaDB bağlantı limit sayısı
+CF_ZONEID=                      // CloudFlare cache temizleme API yolu, ZONEID
+CF_EMAIL=                       // CloudFlare cache temizleme API yolu, EMAIL    
+CF_APIKEY=                      // CloudFlare cache temizleme API yolu, APIKEY
+SMTP_USERNAME=                  // SMTP Mail için kullanıcı adı
+SMTP_PASSWORD=                  // SMTP Mail için şifre
+SMTP_HOST=                      // SMTP Mail için host
+</code></pre>
+
+<h2 id="front-end-client-env">Front-end Client .env</h2>
+<pre><code class="env">REACT_APP_SITENAME=&quot;&quot;           // Sitenin ismi. (Example)
+REACT_APP_SITEURL=&quot;&quot;            // Sitenin isim alanı. (www.example.com gibi)
+
+REACT_APP_DISQUS_SHORTNAME=&quot;&quot;   // Disqus kısa ismini sağlarsanız anime, manga ve bölüm sayfalarında yorum kısmı gösterir.
+REACT_APP_DEV_API_URL=&quot;&quot;        // Dev ortamında istekleri yapmak için kullanacağı alan adı. (http://localhost:5000 gibi)
+REACT_APP_GA_USER_ID=&quot;&quot;         // Google Analytics kullanıcı id'niz.
+REACT_APP_FACEBOOK_LINK=&quot;&quot;      // Link sağlarsanız footer'da tıklanabilir bir Facebook logosu gösterir.
+REACT_APP_DISCORD_LINK=&quot;&quot;       // Link sağlarsanız footer'da tıklanabilir bir Discord logosu gösterir.
+
+REACT_APP_SSS_PAGE_TEXT=&quot;&quot;      // Text sağlarsanız SSS sayfası oluşturur, menüde gösterir.
+</code></pre>
+
+<h2 id="front-end-admin-env">Front-end Admin .env</h2>
+<pre><code class="env">REACT_APP_SITEURL=&quot;&quot;            // Sitenin isim alanı.
+REACT_APP_DEV_API_URL=&quot;&quot;        // Dev ortamında istekleri yapmak için kullanacağı alan adı. (http://localhost:5000 gibi)
+</code></pre>
                 
                   
                 
@@ -515,7 +445,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href=".." title="Giriş" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../yayina-hazirlanma/" title="Yayına Hazırlanma" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -524,25 +454,11 @@
                 <span class="md-footer-nav__direction">
                   Önceki
                 </span>
-                Giriş
+                Yayına Hazırlanma
               </span>
             </div>
           </a>
         
-        
-          <a href="../yukleme-talimatlari/" title="Yükleme Talimatları" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Sonraki
-                </span>
-                Yükleme Talimatları
-              </span>
-            </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
         
       </nav>
     </div>
