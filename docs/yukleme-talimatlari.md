@@ -18,7 +18,7 @@ ForFansubs-NodeApp---Back-End-master dosyasının içinde bir komut ekranı aç�
 
 - **./models** klasöründeki SQL dosyasını SQL sunucunuza import edin. (Dosya içerisinde bütün yetkilerin olduğu Yönetici rolü hazır geliyor. Ancak herhangi bir kullanıcı bulunmamakta. Sistemi kurduktan sonra yeni bir kullanıcı açıp, sonrasında rolünü database üzerinden yonetici olarak ayarlamanız gerekiyor. Şu aşamada servisin herhangi bir setup özelliği bulunmamakta.)
 
-- **.env.example** dosyasını kopyalayıp, dosya ismini **.env** yapın ve içerisindeki boş kısımları doldurun.
+- **.env.example** dosyasını kopyalayıp, dosya ismini **.env** yapın ve içerisindeki boş kısımları doldurun. **(NODE_ENV=development olacak)**
 
 - `npm run server` yazın. Bu komutla beraber servis, geliştirme ortamına uygun bir şekilde açılacaktır (hot-load dahil). http://localhost:5000 yolundan servise ulaşabilirsiniz. Ancak şu an size hata verecektir. Çünkü sunacağı dosyaları compile edip gerekli dosyalara koymadık.
 

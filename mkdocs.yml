@@ -2,6 +2,12 @@ site_name: ForFansubsJSApp / Wiki
 site_url: https://ayberktandogan.github.io/ForFansubs-Wiki
 repo_url: https://github.com/ayberktandogan/ForFansubs-Wiki
 site_description: "ForFansubs paketlerinin nasıl kullanılacağını öğreten wiki"
+nav:
+    - 'Giriş': 'index.md'
+    - 'Gereken Programlar': 'gereken-programlar.md'
+    - 'Yükleme Talimatları': 'yukleme-talimatlari.md'
+    - 'Yayına Hazırlanma': 'yayina-hazirlanma.md'
+    - 'Environment Variables (.env)': 'environment-variables.md'
 theme:
   language: 'tr'
   palette: 'red'
