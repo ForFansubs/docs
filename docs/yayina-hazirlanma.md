@@ -17,7 +17,7 @@ ForFansubs-ReactApp-Admin---Front-end-master dosyasının içinde bir komut ekra
 ## Back-end'i yayına hazırlamak
 - ForFansubs-NodeApp---Back-End-master dosyasının içine **./admin** ve **./client** klasörlerini oluşturun.
 
-- **ForFansubs-ReactApp---Front-end-master/build** klasörünün içindeki tüm dosyaları kesip, ForFansubs-NodeApp---Back-End-master/client dosyasının içerisine yapıştırın.
+- **ForFansubs-ReactApp---Front-end-master/build** klasörünün içindeki tüm dosyaları kesip, **ForFansubs-NodeApp---Back-End-master/client** dosyasının içerisine yapıştırın.
 
 - **ForFansubs-ReactApp-Admin---Front-end-master/build** klasörünün içindeki tüm dosyaları kesip, **ForFansubs-NodeApp---Back-End-master/admin** dosyasının içerisine yapıştırın.
 
