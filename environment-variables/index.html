@@ -388,7 +388,7 @@
 <p>Yükleme ve yayın sayfalarında .env'den bahsedip durduk. Bu dosyalar, servisin ve front-end paketlerindeki detayların grubunuza özel olmasını sağlayacak değerleri tutuyor.</p>
 <h2 id="back-end-env">Back-end .env</h2>
 <pre><code class="env">PORT=                           // Servisin çalışacağı port.
-HOST_URL=                       // Servisin çalışacağı url.
+HOST_URL=                       // Servisin çalışacağı url. (https://example.com)
 NODE_ENV=                       // Servisin çalışacağı enviroment.
 SITE_NAME=                      // Sitenin ismi. (Örn: PuzzleSubs)
 SECRET_OR_KEY=                  // Passportjs'in kullanacağı secret key.
@@ -410,7 +410,7 @@ SMTP_HOST=                      // SMTP Mail için host
 
 <h2 id="front-end-client-env">Front-end Client .env</h2>
 <pre><code class="env">REACT_APP_SITENAME=&quot;&quot;           // Sitenin ismi. (Example)
-REACT_APP_SITEURL=&quot;&quot;            // Sitenin isim alanı. (www.example.com gibi)
+REACT_APP_SITEURL=&quot;&quot;            // Sitenin isim alanı. (https://example.com)
 
 REACT_APP_DISQUS_SHORTNAME=&quot;&quot;   // Disqus kısa ismini sağlarsanız anime, manga ve bölüm sayfalarında yorum kısmı gösterir.
 REACT_APP_DEV_API_URL=&quot;&quot;        // Dev ortamında istekleri yapmak için kullanacağı alan adı. (http://localhost:5000 gibi)
@@ -422,7 +422,7 @@ REACT_APP_SSS_PAGE_TEXT=&quot;&quot;      // Text sağlarsanız SSS sayfası olu
 </code></pre>
 
 <h2 id="front-end-admin-env">Front-end Admin .env</h2>
-<pre><code class="env">REACT_APP_SITEURL=&quot;&quot;            // Sitenin isim alanı.
+<pre><code class="env">REACT_APP_SITEURL=&quot;&quot;            // Sitenin isim alanı. (https://example.com)
 REACT_APP_DEV_API_URL=&quot;&quot;        // Dev ortamında istekleri yapmak için kullanacağı alan adı. (http://localhost:5000 gibi)
 </code></pre>
                 
