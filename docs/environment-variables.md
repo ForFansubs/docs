@@ -4,7 +4,7 @@ Yükleme ve yayın sayfalarında .env'den bahsedip durduk. Bu dosyalar, servisin
 ## Back-end .env
 ```env
 PORT=                           // Servisin çalışacağı port.
-HOST_URL=                       // Servisin çalışacağı url.
+HOST_URL=                       // Servisin çalışacağı url. (https://example.com)
 NODE_ENV=                       // Servisin çalışacağı enviroment.
 SITE_NAME=                      // Sitenin ismi. (Örn: PuzzleSubs)
 SECRET_OR_KEY=                  // Passportjs'in kullanacağı secret key.
@@ -27,7 +27,7 @@ SMTP_HOST=                      // SMTP Mail için host
 ## Front-end Client .env
 ```env
 REACT_APP_SITENAME=""           // Sitenin ismi. (Example)
-REACT_APP_SITEURL=""            // Sitenin isim alanı. (www.example.com gibi)
+REACT_APP_SITEURL=""            // Sitenin isim alanı. (https://example.com)
 
 REACT_APP_DISQUS_SHORTNAME=""   // Disqus kısa ismini sağlarsanız anime, manga ve bölüm sayfalarında yorum kısmı gösterir.
 REACT_APP_DEV_API_URL=""        // Dev ortamında istekleri yapmak için kullanacağı alan adı. (http://localhost:5000 gibi)
@@ -40,6 +40,6 @@ REACT_APP_SSS_PAGE_TEXT=""      // Text sağlarsanız SSS sayfası oluşturur, m
 
 ## Front-end Admin .env
 ```env
-REACT_APP_SITEURL=""            // Sitenin isim alanı.
+REACT_APP_SITEURL=""            // Sitenin isim alanı. (https://example.com)
 REACT_APP_DEV_API_URL=""        // Dev ortamında istekleri yapmak için kullanacağı alan adı. (http://localhost:5000 gibi)
 ``` 
