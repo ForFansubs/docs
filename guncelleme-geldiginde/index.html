@@ -13,7 +13,7 @@
         <meta name="description" content="ForFansubs paketlerinin nasıl kullanılacağını öğreten wiki">
       
       
-        <link rel="canonical" href="https://ayberktandogan.github.io/ForFansubs-Wiki/environment-variables/">
+        <link rel="canonical" href="https://ayberktandogan.github.io/ForFansubs-Wiki/guncelleme-geldiginde/">
       
       
       
@@ -40,7 +40,7 @@
     
     
       
-        <title>Environment Variables (.env) - ForFansubsJSApp / Wiki</title>
+        <title>Güncelleme Geldiğinde - ForFansubsJSApp / Wiki</title>
       
     
     
@@ -81,7 +81,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#environment-variables-env" tabindex="1" class="md-skip">
+      <a href="#guncelleme-geldiginde" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -107,7 +107,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Environment Variables (.env)
+                Güncelleme Geldiğinde
               
             </span>
           
@@ -264,18 +264,6 @@
       
       
 
-
-  <li class="md-nav__item">
-    <a href="../guncelleme-geldiginde/" title="Güncelleme Geldiğinde" class="md-nav__link">
-      Güncelleme Geldiğinde
-    </a>
-  </li>
-
-    
-      
-      
-      
-
   
 
 
@@ -286,53 +274,22 @@
       
     
     
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Environment Variables (.env)
-      </label>
-    
-    <a href="./" title="Environment Variables (.env)" class="md-nav__link md-nav__link--active">
-      Environment Variables (.env)
+    <a href="./" title="Güncelleme Geldiğinde" class="md-nav__link md-nav__link--active">
+      Güncelleme Geldiğinde
     </a>
     
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
+  </li>
+
     
-  
-  
-    <label class="md-nav__title" for="__toc">İçindekiler</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#back-end-env" class="md-nav__link">
-    Back-end .env
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#front-end-client-env" class="md-nav__link">
-    Front-end Client .env
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#front-end-admin-env" class="md-nav__link">
-    Front-end Admin .env
-  </a>
-  
-</li>
       
       
       
-      
-      
-    </ul>
-  
-</nav>
-    
+
+
+  <li class="md-nav__item">
+    <a href="../environment-variables/" title="Environment Variables (.env)" class="md-nav__link">
+      Environment Variables (.env)
+    </a>
   </li>
 
     
@@ -365,36 +322,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">İçindekiler</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#back-end-env" class="md-nav__link">
-    Back-end .env
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#front-end-client-env" class="md-nav__link">
-    Front-end Client .env
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#front-end-admin-env" class="md-nav__link">
-    Front-end Admin .env
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -405,51 +332,12 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/ayberktandogan/ForFansubs-Wiki/edit/master/docs/environment-variables.md" title="Düzenle" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/ayberktandogan/ForFansubs-Wiki/edit/master/docs/guncelleme-geldiginde.md" title="Düzenle" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="environment-variables-env">Environment Variables (.env)</h1>
-<p>Yükleme ve yayın sayfalarında .env'den bahsedip durduk. Bu dosyalar, servisin ve front-end paketlerindeki detayların grubunuza özel olmasını sağlayacak değerleri tutuyor.</p>
-<h2 id="back-end-env">Back-end .env</h2>
-<pre><code class="env">PORT=                           // Servisin çalışacağı port.
-HOST_URL=                       // Servisin çalışacağı url. (https://example.com)
-NODE_ENV=                       // Servisin çalışacağı enviroment.
-SITE_NAME=                      // Sitenin ismi. (Örn: PuzzleSubs)
-SECRET_OR_KEY=                  // Passportjs'in kullanacağı secret key.
-DISCORD_ANIME_WH=               // Discord Anime kanalı Webhook
-DISCORD_EPISODE_WH=             // Discord Bölüm kanalı Webhook
-DISCORD_MANGA_WH=               // Discord Manga kanalı Webhook
-DB_HOST=                        // MariaDB Host
-DB_USER=                        // MariaDB Kullanıcı ismi
-DB_NAME=                        // MariaDB Database ismi
-DB_PASSWORD=                    // MariaDB Kullanıcı şifre
-DB_CONNECTION_LIMIT=100         // MariaDB bağlantı limit sayısı
-CF_ZONEID=                      // CloudFlare cache temizleme API yolu, ZONEID
-CF_EMAIL=                       // CloudFlare cache temizleme API yolu, EMAIL    
-CF_APIKEY=                      // CloudFlare cache temizleme API yolu, APIKEY
-SMTP_USERNAME=                  // SMTP Mail için kullanıcı adı
-SMTP_PASSWORD=                  // SMTP Mail için şifre
-SMTP_HOST=                      // SMTP Mail için host
-</code></pre>
-
-<h2 id="front-end-client-env">Front-end Client .env</h2>
-<pre><code class="env">REACT_APP_SITENAME=&quot;&quot;           // Sitenin ismi. (Example)
-REACT_APP_SITEURL=&quot;&quot;            // Sitenin isim alanı. (https://example.com)
-
-REACT_APP_DISQUS_SHORTNAME=&quot;&quot;   // Disqus kısa ismini sağlarsanız anime, manga ve bölüm sayfalarında yorum kısmı gösterir.
-REACT_APP_DEV_API_URL=&quot;&quot;        // Dev ortamında istekleri yapmak için kullanacağı alan adı. (http://localhost:5000 gibi)
-REACT_APP_GA_USER_ID=&quot;&quot;         // Google Analytics kullanıcı id'niz.
-REACT_APP_FACEBOOK_LINK=&quot;&quot;      // Link sağlarsanız footer'da tıklanabilir bir Facebook logosu gösterir.
-REACT_APP_DISCORD_LINK=&quot;&quot;       // Link sağlarsanız footer'da tıklanabilir bir Discord logosu gösterir.
-
-REACT_APP_SSS_PAGE_TEXT=&quot;&quot;      // Text sağlarsanız SSS sayfası oluşturur, menüde gösterir.
-</code></pre>
-
-<h2 id="front-end-admin-env">Front-end Admin .env</h2>
-<pre><code class="env">REACT_APP_SITENAME=&quot;&quot;           // Sitenin ismi. (Example)
-REACT_APP_SITEURL=&quot;&quot;            // Sitenin isim alanı. (https://example.com)
-REACT_APP_DEV_API_URL=&quot;&quot;        // Dev ortamında istekleri yapmak için kullanacağı alan adı. (http://localhost:5000 gibi)
-</code></pre>
+                <h1 id="guncelleme-geldiginde">Güncelleme Geldiğinde</h1>
+<p>Herhangi bir pakete güncelleme geldiği zaman, güncelleme gelen paketin dosyasında komut ekranı açıp <code>git pull</code> yazmanız yetecektir.</p>
+<p>Eğer front-end paketlerine güncelleme geldiyse tekrardan build yapmanız gerekebilir. Bunun için ilgili paketin github üzerinde <strong>/releases</strong> kısmına bakmayı unutmayın. Bu sayfadan değişen şeyleri de görüntüleyebilirsiniz.</p>
                 
                   
                 
@@ -470,7 +358,7 @@ REACT_APP_DEV_API_URL=&quot;&quot;        // Dev ortamında istekleri yapmak iç
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../guncelleme-geldiginde/" title="Güncelleme Geldiğinde" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../yayina-hazirlanma/" title="Yayına Hazırlanma" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -479,19 +367,19 @@ REACT_APP_DEV_API_URL=&quot;&quot;        // Dev ortamında istekleri yapmak iç
                 <span class="md-footer-nav__direction">
                   Önceki
                 </span>
-                Güncelleme Geldiğinde
+                Yayına Hazırlanma
               </span>
             </div>
           </a>
         
         
-          <a href="../admin-kullanicisi/" title="Admin Hesabı Açmak" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../environment-variables/" title="Environment Variables (.env)" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Sonraki
                 </span>
-                Admin Hesabı Açmak
+                Environment Variables (.env)
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
