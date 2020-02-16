@@ -451,12 +451,12 @@
                 <h1 id="yukleme-talimatlar">Yükleme Talimatları</h1>
 <p>Gereken programları indirdiyseniz, boş bir klasör açın.</p>
 <h2 id="repolar-indirme">Repoları indirme</h2>
-<p><code>git clone https://github.com/ayberktandogan/ForFansubs-NodeApp---Back-End.git</code></p>
-<p><code>git clone https://github.com/ayberktandogan/ForFansubs-ReactApp---Front-end.git</code></p>
-<p><code>git clone https://github.com/ayberktandogan/ForFansubs-ReactApp-Admin---Front-end.git</code></p>
+<p><code>git clone https://github.com/ForFansubs/front-end.git</code></p>
+<p><code>git clone https://github.com/ForFansubs/front-end-admin.git</code></p>
+<p><code>git clone https://github.com/ForFansubs/node-server.git</code></p>
 <h2 id="gelistirme-ortamn-olusturma">Geliştirme ortamını oluşturma</h2>
 <h3 id="back-end">Back-end</h3>
-<p>ForFansubs-NodeApp---Back-End-master dosyasının içinde bir komut ekranı açın. </p>
+<p>node-server-master dosyasının içinde bir komut ekranı açın. </p>
 <ul>
 <li>
 <p><code>npm install</code> yazın. Bu komut servisi çalıştırabilmeniz için gereken paketleri indirip kuracak.</p>
@@ -472,7 +472,7 @@
 </li>
 </ul>
 <h3 id="front-end-client">Front-end Client</h3>
-<p>ForFansubs-ReactApp---Front-end-master dosyasının içinde bir komut ekranı açın.</p>
+<p>front-end-master dosyasının içinde bir komut ekranı açın.</p>
 <ul>
 <li>
 <p><code>npm install</code> yazın.</p>
@@ -525,9 +525,12 @@
 <p><strong>./src/static</strong> ve <strong>./public/</strong> yollarına kare logoyu koyun. İsmi <strong>logo.png</strong> olacak. 500 x 500 boyutlarında <a href="../assets/images/fullLogo.png">Örnek</a></p>
 </li>
 </ul>
+<blockquote>
+<p>NOT: Headerınızda gif türünde hareketli logo da kullanabilirsiniz. Yapmanız gereken <strong>static</strong> klasörüne <strong>fullLogo.gif</strong> ve <strong>fullLogo-dark.gif</strong> eklemek, sonrasında da <strong>.env</strong>'e <strong>REACT_APP_HEADER_LOGO_TYPE</strong> ekleyip değerini <strong>"gif"</strong> yapmak.</p>
+</blockquote>
 <p><code>npm start</code> yazarak geliştirici ortamını açabilirsiniz.</p>
 <h3 id="front-end-admin">Front-end Admin</h3>
-<p>ForFansubs-ReactApp-Admin---Front-end-master dosyasının içinde bir komut ekranı açın.</p>
+<p>front-end-admin-master dosyasının içinde bir komut ekranı açın.</p>
 <ul>
 <li>
 <p><code>npm install</code> yazın.</p>
@@ -580,6 +583,9 @@
 <p><strong>./src/static</strong> ve <strong>./public/</strong> yollarına kare logoyu koyun. İsmi <strong>logo.png</strong> olacak. 500 x 500 boyutlarında <a href="../assets/images/fullLogo.png">Örnek</a></p>
 </li>
 </ul>
+<blockquote>
+<p>NOT: Headerınızda gif türünde hareketli logo da kullanabilirsiniz. Yapmanız gereken <strong>static</strong> klasörüne <strong>fullLogo.gif</strong> eklemek, sonrasında da <strong>.env</strong>'e <strong>REACT_APP_HEADER_LOGO_TYPE</strong> ekleyip değerini <strong>"gif"</strong> yapmak.</p>
+</blockquote>
 <p><code>npm start</code> yazarak geliştirici ortamını açabilirsiniz.</p>
                 
                   
@@ -638,7 +644,7 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            <a href="https://ayberktandogan.github.io" target="_blank" rel="noopener noreferrer">ayberktandogan © 2019</a>
+            <a href="https://ayberktandogan.github.io" target="_blank" rel="noopener noreferrer">ayberktandogan © 2020</a>
           </div>
         
         powered by

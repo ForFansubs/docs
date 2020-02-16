@@ -436,28 +436,28 @@
                 
                 <h1 id="yayna-hazrlanma">Yayına Hazırlanma</h1>
 <p>(Bu aşamaya geçmeden önce lütfen <strong>Yükleme Talimatları</strong> sayfasındaki adımları izleyin.)</p>
-<p><a href="https://github.com/ayberktandogan/ForFansubs-NodeApp---Back-End">ForFansubs NodeApp - Back-End</a> karşıdan sadece API servisi olarak görünebilir, ancak bu servis, client ve admin paketlerini serve etmekten de sorumlu. Bu yüzden yayında sadece bu paketi kullanacağız. Diğer paketler front-end'i build'lememize yarayacak. Güncelleme geldikçe tekrardan build edip, aşağıdaki adımları izlerseniz, servisinizi rahatça güncelleyebilirsiniz.</p>
+<p><a href="https://github.com/ForFansubs/node-server">ForFansubs Back-end Node Server Repo</a> karşıdan sadece API servisi olarak görünebilir, ancak bu servis, client ve admin paketlerini serve etmekten de sorumlu. Bu yüzden yayında sadece bu paketi kullanacağız. Diğer paketler front-end'i build'lememize yarayacak. Güncelleme geldikçe tekrardan build edip, aşağıdaki adımları izlerseniz, servisinizi rahatça güncelleyebilirsiniz.</p>
 <h2 id="front-end-paketlerini-buildlemek">Front-end paketlerini build'lemek</h2>
 <h3 id="front-end-client">Front-end Client</h3>
-<p>ForFansubs-ReactApp---Front-end-master dosyasının içinde bir komut ekranı açın.</p>
+<p>front-end-master dosyasının içinde bir komut ekranı açın.</p>
 <ul>
 <li><code>npm run build</code> yazın. Bu komutla beraber <strong>./</strong> altında <strong>./build</strong> klasörünün oluşturulduğunu göreceksiniz.</li>
 </ul>
 <h3 id="front-end-admin">Front-end Admin</h3>
-<p>ForFansubs-ReactApp-Admin---Front-end-master dosyasının içinde bir komut ekranı açın.</p>
+<p>front-end-admin-master dosyasının içinde bir komut ekranı açın.</p>
 <ul>
 <li><code>npm run build</code> yazın. Bu komutla beraber <strong>./</strong> altında <strong>./build</strong> klasörünün oluşturulduğunu göreceksiniz.</li>
 </ul>
 <h2 id="back-endi-yayna-hazrlamak">Back-end'i yayına hazırlamak</h2>
 <ul>
 <li>
-<p>ForFansubs-NodeApp---Back-End-master dosyasının içine <strong>./admin</strong> ve <strong>./client</strong> klasörlerini oluşturun.</p>
+<p>node-server-master dosyasının içine <strong>./admin</strong> ve <strong>./client</strong> klasörlerini oluşturun.</p>
 </li>
 <li>
-<p><strong>ForFansubs-ReactApp---Front-end-master/build</strong> klasörünün içindeki tüm dosyaları kesip, <strong>ForFansubs-NodeApp---Back-End-master/client</strong> dosyasının içerisine yapıştırın.</p>
+<p><strong>front-end-master/build</strong> klasörünün içindeki tüm dosyaları kesip, <strong>node-server-master/client</strong> dosyasının içerisine yapıştırın.</p>
 </li>
 <li>
-<p><strong>ForFansubs-ReactApp-Admin---Front-end-master/build</strong> klasörünün içindeki tüm dosyaları kesip, <strong>ForFansubs-NodeApp---Back-End-master/admin</strong> dosyasının içerisine yapıştırın.</p>
+<p><strong>front-end-admin-master/build</strong> klasörünün içindeki tüm dosyaları kesip, <strong>node-server-master/admin</strong> dosyasının içerisine yapıştırın.</p>
 </li>
 <li>
 <p><strong>.env.example</strong> dosyasını kopyalayıp, dosya ismini <strong>.env</strong> yapın ve içerisindeki boş kısımları doldurun. <strong>(NODE_ENV=production olacak)</strong></p>
@@ -521,7 +521,7 @@
       <div class="md-footer-copyright">
         
           <div class="md-footer-copyright__highlight">
-            <a href="https://ayberktandogan.github.io" target="_blank" rel="noopener noreferrer">ayberktandogan © 2019</a>
+            <a href="https://ayberktandogan.github.io" target="_blank" rel="noopener noreferrer">ayberktandogan © 2020</a>
           </div>
         
         powered by
