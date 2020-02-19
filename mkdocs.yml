@@ -1,13 +1,18 @@
 site_name: ForFansubsJSApp / Wiki
-site_url: https://ayberktandogan.github.io/ForFansubs-Wiki
-repo_url: https://github.com/ayberktandogan/ForFansubs-Wiki
+site_url: https://forfansubs.github.io/docs/
+repo_url: https://github.com/ForFansubs
 site_description: "ForFansubs paketlerinin nasıl kullanılacağını öğreten wiki"
 nav:
     - 'Giriş': 'index.md'
     - 'Gereken Programlar': 'gereken-programlar.md'
     - 'Yükleme Talimatları': 'yukleme-talimatlari.md'
     - 'Yayına Hazırlanma': 'yayina-hazirlanma.md'
+    - 'Güncelleme Geldiğinde': 'guncelleme-geldiginde.md'
     - 'Environment Variables (.env)': 'environment-variables.md'
+    - 'Admin Hesabı Açmak': 'admin-kullanicisi.md'
+google_analytics:
+  - 'UA-82378950-4'
+  - 'auto'
 theme:
   language: 'tr'
   palette: 'red'
@@ -16,6 +21,8 @@ theme:
   favicon: 'assets/images/favicon.ico'
   feature:
     tabs: false
-  name: null
-  custom_dir: 'mkdocs-material/material'
-copyright: <a href="https://aybertocarlos.github.io" target="_blank" rel="noopener noreferrer">aybertocarlos © 2019</a>
+  name: material
+plugins:
+  - search
+  - git-revision-date-localized
+copyright: <a href="https://ayberktandogan.github.io" target="_blank" rel="noopener noreferrer">ayberktandogan © 2020</a>

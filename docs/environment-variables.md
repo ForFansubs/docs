@@ -28,18 +28,20 @@ SMTP_HOST=                      // SMTP Mail için host
 ```env
 REACT_APP_SITENAME=""           // Sitenin ismi. (Example)
 REACT_APP_SITEURL=""            // Sitenin isim alanı. (https://example.com)
-
+REACT_APP_INDEX_TITLE_TEXT=     // Index title'da site isminizden sonra gözükecek text. ("Anime ve Manga Çeviri Grubu" gibi)
+REACT_APP_HEADER_LOGO_TYPE=     // Bu değeri "gif" yaparak headerınızda hareketli logo kullanabilirsiniz.
 REACT_APP_DISQUS_SHORTNAME=""   // Disqus kısa ismini sağlarsanız anime, manga ve bölüm sayfalarında yorum kısmı gösterir.
 REACT_APP_DEV_API_URL=""        // Dev ortamında istekleri yapmak için kullanacağı alan adı. (http://localhost:5000 gibi)
 REACT_APP_GA_USER_ID=""         // Google Analytics kullanıcı id'niz.
 REACT_APP_FACEBOOK_LINK=""      // Link sağlarsanız footer'da tıklanabilir bir Facebook logosu gösterir.
 REACT_APP_DISCORD_LINK=""       // Link sağlarsanız footer'da tıklanabilir bir Discord logosu gösterir.
-
 REACT_APP_SSS_PAGE_TEXT=""      // Text sağlarsanız SSS sayfası oluşturur, menüde gösterir.
 ```
 
 ## Front-end Admin .env
 ```env
-REACT_APP_SITEURL=""            // Sitenin isim alanı. (https://example.com)
-REACT_APP_DEV_API_URL=""        // Dev ortamında istekleri yapmak için kullanacağı alan adı. (http://localhost:5000 gibi)
+REACT_APP_SITENAME=             // Sitenin ismi. (Example)
+REACT_APP_SITEURL=              // Sitenin isim alanı. (https://example.com)
+REACT_APP_DEV_API_URL=          // Dev ortamında istekleri yapmak için kullanacağı alan adı. (http://localhost:5000 gibi)
+REACT_APP_HEADER_LOGO_TYPE=     // Bu değeri "gif" yaparak headerınızda hareketli logo kullanabilirsiniz.
 ``` 

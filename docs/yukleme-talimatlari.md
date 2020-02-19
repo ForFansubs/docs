@@ -3,16 +3,16 @@ Gereken programları indirdiyseniz, boş bir klasör açın.
 
 ## Repoları indirme
 
-`git clone https://github.com/ayberktandogan/ForFansubs-NodeApp---Back-End.git`
+`git clone https://github.com/ForFansubs/front-end.git`
 
-`git clone https://github.com/ayberktandogan/ForFansubs-ReactApp---Front-end.git`
+`git clone https://github.com/ForFansubs/front-end-admin.git`
 
-`git clone https://github.com/ayberktandogan/ForFansubs-ReactApp-Admin---Front-end.git`
+`git clone https://github.com/ForFansubs/node-server.git`
 
 ## Geliştirme ortamını oluşturma
 
 ### Back-end
-ForFansubs-NodeApp---Back-End-master dosyasının içinde bir komut ekranı açın. 
+node-server-master dosyasının içinde bir komut ekranı açın. 
 
 - `npm install` yazın. Bu komut servisi çalıştırabilmeniz için gereken paketleri indirip kuracak.
 
@@ -23,7 +23,7 @@ ForFansubs-NodeApp---Back-End-master dosyasının içinde bir komut ekranı aç�
 - `npm run server` yazın. Bu komutla beraber servis, geliştirme ortamına uygun bir şekilde açılacaktır (hot-load dahil). http://localhost:5000 yolundan servise ulaşabilirsiniz. Ancak şu an size hata verecektir. Çünkü sunacağı dosyaları compile edip gerekli dosyalara koymadık.
 
 ### Front-end Client
-ForFansubs-ReactApp---Front-end-master dosyasının içinde bir komut ekranı açın.
+front-end-master dosyasının içinde bir komut ekranı açın.
 
 - `npm install` yazın.
 
@@ -66,14 +66,16 @@ ForFansubs-ReactApp---Front-end-master dosyasının içinde bir komut ekranı a�
 
 kodunu yapıştırabilirsiniz. Bu kod, oldukça biçilmiş bir koddur. "app-mount" kısmı dışında istediğiniz gibi düzenleyebilirsiniz.
 
-- **./src/static** yoluna programın header ve yükleme/hata kısımlarında gözükecek tam logoyu koyun. İsimleri **fullLogo.png** ve **fullLogo-dark.png** olacak. --- x 150 boyutlarında bir beyaz bir de siyah arka plan için iki farklı versiyon olmak zorunda. [Örnek](../assets/images/fullLogo-dark.png)
+- **./src/static** ve **./public/** yollarına programın header ve yükleme/hata kısımlarında gözükecek tam logoyu koyun. İsimleri **fullLogo.png** ve **fullLogo-dark.png** olacak. --- x 150 boyutlarında bir beyaz bir de siyah arka plan için iki farklı versiyon olmak zorunda. [Örnek](../assets/images/fullLogo-dark.png)
 
-- **./src/static** yoluna kare logoyu koyun. İsmi **logo.png** olacak. 500 x 500 boyutlarında [Örnek](../assets/images/fullLogo.png)
+- **./src/static** ve **./public/** yollarına kare logoyu koyun. İsmi **logo.png** olacak. 500 x 500 boyutlarında [Örnek](../assets/images/fullLogo.png)
+
+> NOT: Headerınızda gif türünde hareketli logo da kullanabilirsiniz. Yapmanız gereken **static** klasörüne **fullLogo.gif** ve **fullLogo-dark.gif** eklemek, sonrasında da **.env**'e **REACT_APP_HEADER_LOGO_TYPE** ekleyip değerini **"gif"** yapmak.
 
 `npm start` yazarak geliştirici ortamını açabilirsiniz.
 
 ### Front-end Admin
-ForFansubs-ReactApp-Admin---Front-end-master dosyasının içinde bir komut ekranı açın.
+front-end-admin-master dosyasının içinde bir komut ekranı açın.
 
 - `npm install` yazın.
 
@@ -116,8 +118,10 @@ ForFansubs-ReactApp-Admin---Front-end-master dosyasının içinde bir komut ekra
 
 kodunu yapıştırabilirsiniz. Bu kod, oldukça biçilmiş bir koddur. "app-mount" kısmı dışında istediğiniz gibi düzenleyebilirsiniz.
 
-- **./src/static** yoluna programın header ve yükleme/hata kısımlarında gözükecek tam logoyu koyun. İsmi **fullLogo.png** olacak. --- x 150 boyutlarında [Örnek](../assets/images/fullLogo-light.png)
+- **./src/static** ve **./public/** yollarına programın header ve yükleme/hata kısımlarında gözükecek tam logoyu koyun. İsmi **fullLogo.png** olacak. --- x 150 boyutlarında [Örnek](../assets/images/fullLogo-light.png)
 
-- **./src/static** yoluna kare logoyu koyun. İsmi **logo.png** olacak. 500 x 500 boyutlarında [Örnek](../assets/images/fullLogo.png)
+- **./src/static** ve **./public/** yollarına kare logoyu koyun. İsmi **logo.png** olacak. 500 x 500 boyutlarında [Örnek](../assets/images/fullLogo.png)
+
+> NOT: Headerınızda gif türünde hareketli logo da kullanabilirsiniz. Yapmanız gereken **static** klasörüne **fullLogo.gif** eklemek, sonrasında da **.env**'e **REACT_APP_HEADER_LOGO_TYPE** ekleyip değerini **"gif"** yapmak.
 
 `npm start` yazarak geliştirici ortamını açabilirsiniz.

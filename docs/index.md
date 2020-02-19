@@ -6,11 +6,11 @@ ForFansubs Wikisinden selam.
 
 Bu repo 
 
-[ForFansubs ReactApp - Front-end](https://github.com/ayberktandogan/ForFansubs-ReactApp---Front-end)
+[ForFansubs ReactApp - Front-end](https://github.com/ForFansubs/front-end)
 
-[ForFansubs ReactApp Admin - Front-end](https://github.com/ayberktandogan/ForFansubs-ReactApp-Admin---Front-end)
+[ForFansubs ReactApp Admin - Front-end](https://github.com/ForFansubs/front-end-admin)
 
-[ForFansubs NodeApp - Back-End](https://github.com/ayberktandogan/ForFansubs-NodeApp---Back-End)
+[ForFansubs NodeApp - Back-End](https://github.com/ForFansubs/node-server)
 
 paketlerini nasıl birlikte kullanacağınızı ve üstünde nasıl düzenlemeler yapabileceğinizi anlatmak için oluşturuldu.
 
