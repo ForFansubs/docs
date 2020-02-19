@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>https://ayberktandogan.github.io/ForFansubs-Wiki/</loc>
-     <lastmod>2020-02-16</lastmod>
+     <loc>https://forfansubs.github.io/docs/</loc>
+     <lastmod>2020-02-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://ayberktandogan.github.io/ForFansubs-Wiki/gereken-programlar/</loc>
-     <lastmod>2020-02-16</lastmod>
+     <loc>https://forfansubs.github.io/docs/gereken-programlar/</loc>
+     <lastmod>2020-02-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://ayberktandogan.github.io/ForFansubs-Wiki/yukleme-talimatlari/</loc>
-     <lastmod>2020-02-16</lastmod>
+     <loc>https://forfansubs.github.io/docs/yukleme-talimatlari/</loc>
+     <lastmod>2020-02-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://ayberktandogan.github.io/ForFansubs-Wiki/yayina-hazirlanma/</loc>
-     <lastmod>2020-02-16</lastmod>
+     <loc>https://forfansubs.github.io/docs/yayina-hazirlanma/</loc>
+     <lastmod>2020-02-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://ayberktandogan.github.io/ForFansubs-Wiki/guncelleme-geldiginde/</loc>
-     <lastmod>2020-02-16</lastmod>
+     <loc>https://forfansubs.github.io/docs/guncelleme-geldiginde/</loc>
+     <lastmod>2020-02-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://ayberktandogan.github.io/ForFansubs-Wiki/environment-variables/</loc>
-     <lastmod>2020-02-16</lastmod>
+     <loc>https://forfansubs.github.io/docs/environment-variables/</loc>
+     <lastmod>2020-02-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://ayberktandogan.github.io/ForFansubs-Wiki/admin-kullanicisi/</loc>
-     <lastmod>2020-02-16</lastmod>
+     <loc>https://forfansubs.github.io/docs/admin-kullanicisi/</loc>
+     <lastmod>2020-02-19</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
