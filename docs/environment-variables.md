@@ -11,6 +11,7 @@ SECRET_OR_KEY=                  // Passportjs'in kullanacağı secret key.
 DISCORD_ANIME_WH=               // Discord Anime kanalı Webhook
 DISCORD_EPISODE_WH=             // Discord Bölüm kanalı Webhook
 DISCORD_MANGA_WH=               // Discord Manga kanalı Webhook
+DISCORD_MENTION_ID=             // Discord Webhook mesajlarında mentionlanacak rolün ID'si
 DB_HOST=                        // MariaDB Host
 DB_USER=                        // MariaDB Kullanıcı ismi
 DB_NAME=                        // MariaDB Database ismi
@@ -22,6 +23,7 @@ CF_APIKEY=                      // CloudFlare cache temizleme API yolu, APIKEY
 SMTP_USERNAME=                  // SMTP Mail için kullanıcı adı
 SMTP_PASSWORD=                  // SMTP Mail için şifre
 SMTP_HOST=                      // SMTP Mail için host
+SMTP_PORT=                      // SMTP Mail için port
 ```
 
 ## Front-end Client .env
