@@ -1,28 +1,56 @@
-site_name: ForFansubsJSApp / Wiki
+site_name: ForFansubs Wiki
 site_url: https://forfansubs.github.io/docs/
 repo_url: https://github.com/ForFansubs
 site_description: "ForFansubs paketlerinin nasıl kullanılacağını öğreten wiki"
 nav:
-    - 'Giriş': 'index.md'
-    - 'Gereken Programlar': 'gereken-programlar.md'
-    - 'Yükleme Talimatları': 'yukleme-talimatlari.md'
-    - 'Yayına Hazırlanma': 'yayina-hazirlanma.md'
-    - 'Güncelleme Geldiğinde': 'guncelleme-geldiginde.md'
-    - 'Environment Variables (.env)': 'environment-variables.md'
-    - 'Admin Hesabı Açmak': 'admin-kullanicisi.md'
+  - Ana sayfa: 'index.md'
+  - 'Kurulum & Çalıştırma':
+    - Gereken Programlar: 'gereken-programlar.md'
+    - Yükleme Talimatları: 'yukleme-talimatlari.md'
+    - Yayına Hazırlanma: 'yayina-hazirlanma.md'
+  - 'Kurulumdan Sonra': 
+    - Güncelleme Geldiğinde: 'guncelleme-geldiginde.md'
+    - Environment Variables (.env): 'environment-variables.md'
+    - Admin Hesabı Açma: 'admin-kullanicisi.md'
 google_analytics:
   - 'UA-82378950-4'
   - 'auto'
+extra:
+  social:
+    - icon: solid/globe
+      link: 'https://fgl.moe/'
+    - icon: brands/github
+      link: 'https://github.com/ayberktandogan'
+    - icon: brands/linkedin
+      link: 'https://www.linkedin.com/in/ayberk-tandogan/'
 theme:
   language: 'tr'
-  palette: 'red'
-  font: 'roboto'
+  palette:
+    primary: 'black'
+    accent: 'red'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
   logo: 'assets/images/logo.png'
   favicon: 'assets/images/favicon.ico'
   feature:
+    instant: true
     tabs: false
   name: material
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.caret
+  - pymdownx.critic
+  - codehilite
+extra_javascript:
+  - 'assets/js/extra.js'
 plugins:
-  - search
+  - search:
+      separator: '[\s\-\.]+'
+      lang:
+        - tr
   - git-revision-date-localized
+  - minify:
+      minify_html: true
 copyright: <a href="https://ayberktandogan.github.io" target="_blank" rel="noopener noreferrer">ayberktandogan © 2020</a>
