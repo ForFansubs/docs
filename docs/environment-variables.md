@@ -24,6 +24,10 @@ Yükleme ve yayın sayfalarında .env'den bahsedip durduk. Bu dosyalar, servisin
     SMTP_PASSWORD=                  // SMTP Mail için şifre
     SMTP_HOST=                      // SMTP Mail için host
     SMTP_PORT=                      // SMTP Mail için port
+    USE_NEW_SEO_METHOD=             // Yeni SEO yöntemini kullanmak istiyorsanız "true"
+    PRERENDER_SERVICE_URL=          // Prerender servisinin URL'si
+    REDIS_PORT=                     // Redis servisinin portu (varsayılan 6379)
+    REDIS_CACHE_TIMEOUT=            // Redis cache süresi (saniye)
     ```
 
 !!! note "Front-end Client .env"

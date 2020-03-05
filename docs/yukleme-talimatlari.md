@@ -25,6 +25,9 @@ node-server-master dosyasının içinde bir komut ekranı açın.
 
 - Komut ekranına `npm run server` yazın. Bu komutla beraber servis, geliştirme ortamına uygun bir şekilde açılacaktır {>>hot-load dahil<<}. ^^http://localhost:5000^^ yolundan servise ulaşabilirsiniz. Ancak şu an size hata verecektir. Çünkü sunacağı dosyaları compile edip gerekli dosyalara koymadık.
 
+!!! note "Yeni SEO özelliğini kullanacaksanız"
+    Memurai ya da Redis'in kurulu olduğundan emin olun. İndirme linklerini [buradan](/gereken-programlar) bulabilirsiniz. Sonrasında [bu sayfadaki](/prerender) kurulum aşamalarını takip edin.
+
 ### Front-end Client
 front-end-master dosyasının içinde bir komut ekranı açın.
 
@@ -137,3 +140,4 @@ kodunu yapıştırabilirsiniz.
 ---
 
 `npm start` yazarak geliştirici ortamını açabilirsiniz.
+

@@ -8,6 +8,7 @@ nav:
     - Gereken Programlar: 'gereken-programlar.md'
     - Yükleme Talimatları: 'yukleme-talimatlari.md'
     - Yayına Hazırlanma: 'yayina-hazirlanma.md'
+    - Pre-render (SEO): 'prerender.md' 
   - 'Kurulumdan Sonra': 
     - Güncelleme Geldiğinde: 'guncelleme-geldiginde.md'
     - Environment Variables (.env): 'environment-variables.md'
@@ -29,8 +30,8 @@ theme:
     primary: 'black'
     accent: 'red'
   font:
-    text: 'Ubuntu'
-    code: 'Ubuntu Mono'
+    text: 'Rubik'
+    code: 'Source Code Pro'
   logo: 'assets/images/logo.png'
   favicon: 'assets/images/favicon.ico'
   feature:
