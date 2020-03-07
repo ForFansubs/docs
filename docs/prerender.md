@@ -9,11 +9,11 @@ Bu aşamadan sonra paket dosyasında `npm install` yaptıktan sonra direkt olara
 
 Servisi kurup çalıştırdıktan sonra sistemde hangi port üzerinde çalışıyorsa, {==node-server .env==} içerisindeki {==PRERENDER_SERVICE_URL==} değerini ona göre ayarlayıp, node-server'ı başlatmanız gerekiyor.
 
-!!! important "Eklenmesi gereken örnek .env"
+!!! important "Eklenmesi gereken örnek .env (Son güncelleme: 7 Mart)"
     ```env
     USE_NEW_SEO_METHOD="true"
     PRERENDER_SERVICE_URL="http://localhost:3002"
-    REDIS_PORT=
+    REDIS_OPTIONS={}                                // {"port": 1001, "host": 255.255.255.0} gibi
     REDIS_CACHE_TIMEOUT=259200
     ```
 

@@ -26,7 +26,7 @@ Yükleme ve yayın sayfalarında .env'den bahsedip durduk. Bu dosyalar, servisin
     SMTP_PORT=                      // SMTP Mail için port
     USE_NEW_SEO_METHOD=             // Yeni SEO yöntemini kullanmak istiyorsanız "true"
     PRERENDER_SERVICE_URL=          // Prerender servisinin URL'si
-    REDIS_PORT=                     // Redis servisinin portu (varsayılan 6379)
+    REDIS_OPTIONS={}                // RedisJS'in createClient fonksiyonunda aldığı options objesi https://redis.js.org/#-api-rediscreateclient
     REDIS_CACHE_TIMEOUT=            // Redis cache süresi (saniye)
     ```
 
@@ -42,6 +42,9 @@ Yükleme ve yayın sayfalarında .env'den bahsedip durduk. Bu dosyalar, servisin
     REACT_APP_FACEBOOK_LINK=""      // Link sağlarsanız footer'da tıklanabilir bir Facebook logosu gösterir.
     REACT_APP_DISCORD_LINK=""       // Link sağlarsanız footer'da tıklanabilir bir Discord logosu gösterir.
     REACT_APP_SSS_PAGE_TEXT=""      // Text sağlarsanız SSS sayfası oluşturur, menüde gösterir.
+
+    REACT_APP_META_DESCRIPTION=     // Sitenin description metasında kullanılacak text.
+    REACT_APP_META_AUTHOR=          // Sitenin author metasında kullanılacak text.
     ```
 
 !!! note "Front-end Admin .env"
