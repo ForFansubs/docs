@@ -45,6 +45,7 @@ Yükleme ve yayın sayfalarında .env'den bahsedip durduk. Bu dosyalar, servisin
 
     REACT_APP_META_DESCRIPTION=     // Sitenin description metasında kullanılacak text.
     REACT_APP_META_AUTHOR=          // Sitenin author metasında kullanılacak text.
+    REACT_APP_META_KEYWORDS=        // Sitenin keywords metasında kullanılacak text. (anime, manga, türkçe izle vb.)
     ```
 
 !!! note "Front-end Admin .env"
