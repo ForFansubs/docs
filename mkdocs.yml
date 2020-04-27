@@ -18,19 +18,16 @@ google_analytics:
   - 'auto'
 extra:
   social:
-    - icon: solid/globe
+    - icon: fontawesome/solid/globe
       link: 'https://fgl.moe/'
-    - icon: brands/github
+    - icon: fontawesome/brands/github
       link: 'https://github.com/ayberktandogan'
-    - icon: brands/linkedin
+    - icon: fontawesome/brands/linkedin
       link: 'https://www.linkedin.com/in/ayberk-tandogan/'
 theme:
   language: 'tr'
-  palette:
-    primary: 'black'
-    accent: 'red'
   font:
-    text: 'Rubik'
+    text: 'Source Sans Pro'
     code: 'Source Code Pro'
   logo: 'assets/images/logo.png'
   favicon: 'assets/images/favicon.ico'
@@ -43,9 +40,15 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.caret
   - pymdownx.critic
+  - pymdownx.tabbed
   - codehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
 extra_javascript:
   - 'assets/js/extra.js'
+extra_css:
+  - 'assets/css/extra.css'
 plugins:
   - search:
       separator: '[\s\-\.]+'

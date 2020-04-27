@@ -26,4 +26,27 @@ front-end-admin-master dosyasının içinde bir komut ekranı açın.
 
 ---
 
-`npm run production` komutuyla servisi yayına hazır bir şekilde çalıştırabilirsiniz.
+Aşağıdaki seçeneklerden birisini kullanarak, servisinizi yayına çıkarabilirsiniz.
+
+=== "pm2 Kullanarak"
+    `pm2` paketi nasıl kullanılır detaylarına girmeyeceğim. Nasıl kurulduğuna [buradaki linkten](https://pm2.keymetrics.io/) ulaşabilirsiniz. Neden kullanacağız derseniz de, pm2'nin normalde scriptler yazarak elde edebileceğimiz şeyleri otomatik bir şekilde yapabildiği için. En basitinden, servis çöktüğü zaman yeniden başlatması, bir dosya değiştiğinde servisi yeniden başlatması vs. Bütün bu özelliklere ve detaylara yukardaki linkten ulaşabilirsiniz.
+
+    node-server dosyanızın içerisinde {==ecosystem.config.js==} adlı bir dosya açın. İçerisinde aşağıdaki örnek gibi bir ayar objesi çıkarmanız gerekiyor. Bu ayarları neye göre değiştireceğinize, nasıl kullanacağınıza [buradaki linkten](https://pm2.keymetrics.io/docs/usage/application-declaration/) ulaşabilirsiniz.
+    ```js
+    module.exports = {
+    "ignore_watch": ["client/", "node_modules/"],
+    apps: [{
+        "name": "FFs Node Server",
+        "script": "server.js",
+        }]
+    }
+    ```
+    
+    Bu adımı gerçekleştirdikten sonra dosyanız içerisindeki komut ekranında
+
+    `pm2 start`
+
+    yazarsanız, servisiniz pm2 üzerinden çalışmaya başlar.
+
+=== "Normal yolla"
+    `npm run production` komutuyla servisi yayına hazır bir şekilde çalıştırabilirsiniz.
