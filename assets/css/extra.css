@@ -325,3 +325,20 @@ pre:hover .md-clipboard:before {
 .codehilite .kc, .highlight .kc {
     color: #bd668f;
 }
+
+.md-typeset .tabbed-set {
+    padding: 0 .6rem;
+    background-color: rgba(0,191,165,.1);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+}
+
+.md-typeset .tabbed-set label{
+    color: white;
+}
+
+.md-typeset .tabbed-content {
+    padding: 0 .6rem;
+    margin: 0 -.6rem;
+    width: 120%;
+    background-color: #36393E;
+}
