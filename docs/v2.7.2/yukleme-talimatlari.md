@@ -19,9 +19,9 @@ node-server-master dosyasının içinde bir komut ekranı açın.
 
 - Komut ekranına `npm install` yazın. Bu komut servisi çalıştırabilmeniz için gereken paketleri indirip kuracak.
 
-- `./models` klasöründeki SQL dosyasını SQL sunucunuza import edin. {>>Dosya içerisinde bütün yetkilerin olduğu Yönetici rolü hazır geliyor. Ancak herhangi bir kullanıcı bulunmamakta. Sistemi kurduktan sonra yeni bir kullanıcı açıp, sonrasında rolünü database üzerinden yonetici olarak ayarlamanız gerekiyor. Şu aşamada servisin herhangi bir setup özelliği bulunmamakta.<<}
+- {==./models==} klasöründeki SQL dosyasını SQL sunucunuza import edin. {>>Dosya içerisinde bütün yetkilerin olduğu Yönetici rolü hazır geliyor. Ancak herhangi bir kullanıcı bulunmamakta. Sistemi kurduktan sonra yeni bir kullanıcı açıp, sonrasında rolünü database üzerinden yonetici olarak ayarlamanız gerekiyor. Şu aşamada servisin herhangi bir setup özelliği bulunmamakta.<<}
 
-- `.env.example` dosyasını kopyalayıp, dosya ismini `.env` yapın ve içerisindeki boş kısımları doldurun. {>>NODE_ENV=development<<}
+- {==.env.example==} dosyasını kopyalayıp, dosya ismini {==.env==} yapın ve içerisindeki boş kısımları doldurun. {>>NODE_ENV=development<<}
 
 - Komut ekranına `npm run server` yazın. Bu komutla beraber servis, geliştirme ortamına uygun bir şekilde açılacaktır {>>hot-load dahil<<}. ^^http://localhost:5000^^ yolundan servise ulaşabilirsiniz. Ancak şu an size hata verecektir. Çünkü sunacağı dosyaları compile edip gerekli dosyalara koymadık.
 
@@ -33,9 +33,9 @@ front-end-master dosyasının içinde bir komut ekranı açın.
 
 - `npm install` yazın.
 
-- `.env.example` dosyasını kopyalayıp, dosya ismini `.env` yapın ve içerisindeki boş kısımları doldurun.
+- {==.env.example==} dosyasını kopyalayıp, dosya ismini {==.env==} yapın ve içerisindeki boş kısımları doldurun.
 
-- `./public` yolu içerisinde index.html dosyası oluşturun. İçerisine 
+- {==./public==} yolu içerisinde index.html dosyası oluşturun. İçerisine 
 
 !!! note "index.html"
     ```html
@@ -74,13 +74,12 @@ front-end-master dosyasının içinde bir komut ekranı açın.
 
 kodunu yapıştırabilirsiniz.
 
-- `./src/static` ve `./public/` yollarına programın header ve yükleme/hata kısımlarında gözükecek tam logoyu koyun. İsimlerinin `fullLogo.png` ve `fullLogo-dark.png` olması gerekiyor. {>>--- x 150 boyutlarında bir beyaz bir de siyah arka plan için iki farklı versiyon olmak zorunda.<<} [Örnek](../assets/images/fullLogo-dark.png)
-- `./src/static` ve `./public/` yollarına kare logoyu koyun. İsminin `logo.png` olması gerekiyor. {>>500 x 500 boyutlarında<<} [Örnek](../assets/images/fullLogo.png)
-- `./src/static` yoluna [CoverPlaceholder.png](../assets/images/CoverPlaceholder.png) ve [HeaderPlaceholder.png](../assets/images/HeaderPlaceholder.png) görsellerini koyun. `CoverPlaceholder` dosyası, anime veya manga cover_art dosyaları sunucunuzda veya database'de ekli `cover_art` linkinde 404 alırsa, 3. bir seçenek olarak gösteriliyor. `HeaderPlaceholder` dosyası ise, sunucunuzda header resmi bulunmayan animelere toplu link eklerseniz, ana sayfada toplu link kısmında gösterilirken kullanılıyor.
-- `./src/config` dosyasında bulunan `drawer_items.js`, `footer_items.js`, `sss_page_text.js` ve `recruitment_panels.js` dosyalarını her dosyada bulunan açıklamalara göre doldurun.
+- {==./src/static==} ve {==./public/==} yollarına programın header ve yükleme/hata kısımlarında gözükecek tam logoyu koyun. İsimlerinin {==fullLogo.png==} ve {==fullLogo-dark.png==} olması gerekiyor. {>>--- x 150 boyutlarında bir beyaz bir de siyah arka plan için iki farklı versiyon olmak zorunda.<<} [Örnek](../assets/images/fullLogo-dark.png)
+
+- {==./src/static==} ve {==./public/==} yollarına kare logoyu koyun. İsminin {==logo.png==} olması gerekiyor. {>>500 x 500 boyutlarında<<} [Örnek](../assets/images/fullLogo.png)
 
 !!! NOT
-    Headerınızda gif türünde hareketli logo da kullanabilirsiniz. Yapmanız gereken `./src/static` klasörüne `fullLogo.gif` ve `fullLogo-dark.gif` eklemek, sonrasında da `.env`'e `REACT_APP_HEADER_LOGO_TYPE` ekleyip değerini `"gif"` yapmak.
+    Headerınızda gif türünde hareketli logo da kullanabilirsiniz. Yapmanız gereken {==./src/static==} klasörüne {==fullLogo.gif==} ve {==fullLogo-dark.gif==} eklemek, sonrasında da {==.env==}'e {==REACT_APP_HEADER_LOGO_TYPE==} ekleyip değerini {=="gif"==} yapmak.
 
 ---
 
@@ -91,9 +90,9 @@ front-end-admin-master dosyasının içinde bir komut ekranı açın.
 
 - `npm install` yazın.
 
-- `.env.example` dosyasını kopyalayıp, dosya ismini `.env` yapın ve içerisindeki boş kısımları doldurun.
+- {==.env.example==} dosyasını kopyalayıp, dosya ismini {==.env==} yapın ve içerisindeki boş kısımları doldurun.
 
-- `./public` yolu içerisinde index.html dosyası oluşturun. İçerisine 
+- {==./public==} yolu içerisinde index.html dosyası oluşturun. İçerisine 
 
 !!! note "index.html"
     ```html
@@ -131,12 +130,12 @@ front-end-admin-master dosyasının içinde bir komut ekranı açın.
     ```
 kodunu yapıştırabilirsiniz.
 
-- `./src/static` ve `./public/` yollarına programın header ve yükleme/hata kısımlarında gözükecek tam logoyu koyun. İsmi `fullLogo.png` olacak. {>>--- x 150 boyutlarında<<} [Örnek](../assets/images/fullLogo-light.png)
+- {==./src/static==} ve {==./public/==} yollarına programın header ve yükleme/hata kısımlarında gözükecek tam logoyu koyun. İsmi {==fullLogo.png==} olacak. {>>--- x 150 boyutlarında<<} [Örnek](../assets/images/fullLogo-light.png)
 
-- `./src/static` ve `./public/` yollarına kare logoyu koyun. İsminin `logo.png` olması gerekiyor. {>>500 x 500 boyutlarında<<} [Örnek](../assets/images/fullLogo.png)
+- {==./src/static==} ve {==./public/==} yollarına kare logoyu koyun. İsminin {==logo.png==} olması gerekiyor. {>>500 x 500 boyutlarında<<} [Örnek](../assets/images/fullLogo.png)
 
 !!! NOT
-    Headerınızda gif türünde hareketli logo da kullanabilirsiniz. Yapmanız gereken `./src/static` klasörüne `fullLogo.gif` ve `fullLogo-dark.gif` eklemek, sonrasında da `.env`'e `REACT_APP_HEADER_LOGO_TYPE` ekleyip değerini `"gif"` yapmak.
+    Headerınızda gif türünde hareketli logo da kullanabilirsiniz. Yapmanız gereken {==./src/static==} klasörüne {==fullLogo.gif==} ve {==fullLogo-dark.gif==} eklemek, sonrasında da {==.env==}'e {==REACT_APP_HEADER_LOGO_TYPE==} ekleyip değerini {=="gif"==} yapmak.
 
 ---
 
