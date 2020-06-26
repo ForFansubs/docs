@@ -90,4 +90,6 @@ REACT_APP_SSS_PAGE_TEXT kaldırıldı.
 
 REACT_APP_SSS_PAGE seçeneği eklendi. // SSS sayfası göstermek istiyorsanız, bu seçeneği `true` olarak ayarlayabilirsiniz. UNUTMAYIN! Sayfanın boş gözükmemesi için `sss_page_text.js` dosyasını doldurmanız gerekiyor.
 ```
+
 5. 3 projedeki paketlerin çoğu güncellendi. Bu yüzden `node-server` servisini çalıştırmadan önce `node_modules` dosyasını silip, `npm install` yapmanız ya da `front-end` veya `front-end-admin` paketlerini buildlemeden önce `node_modules` dosyalarını silip, `yarn install` yapmanız önerilir, yoksa hatalarla karşılaşabilirsiniz.
+6. Artık bütün resimler sunucuda saklanıyor ve ilk orada aranıyor. Bu yüzden cover_art'ları eğer indirmediyseniz sunucunuza indirmeniz gerekebilir. Çünkü ilk sunucuya, sonra database'de kayıtlı linke istek yollanacağı için, sayfa yüklenmesi uzun sürebilir. Bunun için [bu pakette](https://github.com/ForFansubs/migration-scripts) bulunan get-cover_arts scriptini kullanabilirsiniz.
