@@ -9,9 +9,14 @@ nav:
     - Yükleme Talimatları: 'yukleme-talimatlari.md'
     - Yayına Hazırlanma: 'yayina-hazirlanma.md'
     - Pre-render (SEO): 'prerender.md' 
+  - 'Özelleştirme':
+    - Front-end:
+      - Config Dosyalarını Düzenleme: 'front-end-configdeki-dosyalari-duzenleme.md'
+      - Yeni Sayfa Ekleme: 'yeni-sayfa-ekleme.md'
+      - Temayı Düzenleme: 'temayi-duzenleme.md'
+    - Environment Variables (.env): 'environment-variables.md'
   - 'Kurulumdan Sonra': 
     - Güncelleme Geldiğinde: 'guncelleme-geldiginde.md'
-    - Environment Variables (.env): 'environment-variables.md'
     - Admin Hesabı Açma: 'admin-kullanicisi.md'
   - v2'den v3'e Geçerken: 
     - Neler değişti?: 'v2-v3.md'

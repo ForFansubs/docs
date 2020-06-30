@@ -71,8 +71,7 @@ html .md-nav--primary .md-nav__title:before {
 }
 .md-typeset code {
     color: #fff !important;
-    box-shadow: 0.29412em 0 0 hsla(0, 0%, 100%, 0.07),
-        -0.29412em 0 0 hsla(0, 0%, 100%, 0.1);
+    background-color: #44474C;
 }
 .md-typeset a code {
     color: #94acff !important;
