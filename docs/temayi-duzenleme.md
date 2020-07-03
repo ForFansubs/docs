@@ -22,6 +22,6 @@ Uygulama, temasını Material UI paketinin sağladığı `theme` objesinden alı
 
 Yukardaki örnek, ana sayfada öne çıkarılan animeler kısmındaki tür kutularının rengi dahil, butonların renkleri ve sayfalardaki bazı elementlerin rengini değiştirir.
 
-![Tema Örnek 1](/assets/images/TemaOrnek1.png)
+![Tema Örnek 1](assets/images/TemaOrnek1.png)
 
 Daha ayrıntılı örnekler için `./src/config/theming/index.js`, `./src/config/theming/dark/index.js` ve `./src/config/theming/light/index.js` dosyalarına bakabilirsiniz.

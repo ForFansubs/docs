@@ -12,6 +12,7 @@ Aslında aşağıdaki adımları izlemeden, sanki ilk kez kuruyormuşsunuz gibi 
     2. Aşağıdaki query komularını, veritabanı sunucunuza yollayın.
 ```mysql
 USE database_name;
+UPDATE permission SET `permission_set`='["see-admin-page","see-logs","see-anime","add-anime","update-anime","delete-anime","featured-anime","see-episode","add-episode","update-episode","delete-episode","see-watch-link","add-watch-link","delete-watch-link","see-download-link","add-download-link","delete-download-link","see-manga","add-manga","update-manga","delete-manga","see-manga-episode","add-manga-episode","update-manga-episode","delete-manga-episode","see-motd","add-motd","update-motd","delete-motd","see-user","add-user","update-user","delete-user","see-permission","add-permission","update-permission","delete-permission","see-notification","add-notification","update-notification","delete-notification"]' WHERE `slug`="yonetici";
 ALTER TABLE `anime`
 	ADD COLUMN `series_status` CHAR(50) NOT NULL DEFAULT 'Tamamlandı' AFTER `pv`,
 	ADD COLUMN `trans_status` CHAR(50) NOT NULL DEFAULT 'Tamamlandı' AFTER `series_status`;
