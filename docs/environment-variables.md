@@ -17,7 +17,8 @@ Yükleme ve yayın sayfalarında .env'den bahsedip durduk. Bu dosyalar, servisin
     DB_USER=                        // MariaDB Kullanıcı ismi
     DB_NAME=                        // MariaDB Database ismi
     DB_PASSWORD=                    // MariaDB Kullanıcı şifre
-    DB_CONNECTION_LIMIT=100         // MariaDB bağlantı limit sayısı
+    DB_CONNECTION_MAX=              // MariaDB Pool Maksimum bağlantı sayısı (Eğer pm2 cluster kullanıyorsanız, MariaDB sunucunuzun maksimum bağlantı sayısını ve cluster sayınızı göz önünde bulundurarak ayarlayın)
+    DB_CONNECTION_MIN=              // MariaDB Pool Minimum bağlantı sayısı
     SMTP_USERNAME=                  // SMTP Mail için kullanıcı adı
     SMTP_PASSWORD=                  // SMTP Mail için şifre
     SMTP_HOST=                      // SMTP Mail için host
