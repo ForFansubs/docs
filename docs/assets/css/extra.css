@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Geomanist Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('../fonts/Geomanist Regular Italic'), url('../fonts/Geomanist-Regular-Italic.woff') format('woff');
+}
+    
+    
+@font-face {
+    font-family: 'Geomanist';
+    font-style: normal;
+    font-weight: normal;
+    src: local('../fonts/Geomanist Regular'), url('../fonts/Geomanist-Regular.woff') format('woff');
+}
+
 :root {
     --md-default-fg-color: hsla(0, 0%, 0%, 0.87);
     --md-default-fg-color--light: hsla(0, 0%, 0%, 0.54);
@@ -19,6 +34,11 @@
 .md-main h1 {
     color: rgba(255, 255, 255, 0.8) !important;
 }
+
+h1, h2, h3, h4, h5, h6, a {
+    font-family: "Geomanist";
+}
+
 table {
     background-color: #616161 !important;
 }
