@@ -1,77 +1,93 @@
 site_name: ForFansubs Wiki
 site_url: https://forfansubs.github.io/docs/
+site_author: Ayberk Tandoğan
 repo_url: https://github.com/ForFansubs
+repo_name: ForFansubs Organization
 site_description: "ForFansubs paketlerinin nasıl kullanılacağını öğreten wiki"
 nav:
-  - Ana sayfa: "index.md"
-  - "Kurulum & Çalıştırma":
-      - Gereken Programlar: "gereken-programlar.md"
-      - Yükleme Talimatları: "yukleme-talimatlari.md"
-      - Yayına Hazırlanma: "yayina-hazirlanma.md"
-      - Pre-render (SEO): "prerender.md"
-  - "Özelleştirme":
-      - Front-end:
-          - Config Dosyalarını Düzenleme: "front-end-configdeki-dosyalari-duzenleme.md"
-          - Yeni Sayfa Ekleme: "yeni-sayfa-ekleme.md"
-          - Temayı Düzenleme: "temayi-duzenleme.md"
-      - Node-server:
-          - Özel İzleme ve İndirme Siteleri Tanımlama: "ozel-izleme-ve-indirme-sitesi-tanimlama.md"
-      - Environment Variables (.env): "environment-variables.md"
-  - "Kurulumdan Sonra":
-      - Güncelleme Geldiğinde: "guncelleme-geldiginde.md"
-      - Admin Hesabı Açma: "admin-kullanicisi.md"
-  - v2'den v3'e Geçerken:
-      - Neler değişti?: "v2-v3.md"
-      - Nasıl güncellerim?: "v2-v3-gecis-adimlari.md"
-  - Eski Sürümler:
-      - v2.7.2:
-          - Ana sayfa: "v2.7.2/index.md"
-          - "Kurulum & Çalıştırma":
-              - Gereken Programlar: "v2.7.2/gereken-programlar.md"
-              - Yükleme Talimatları: "v2.7.2/yukleme-talimatlari.md"
-              - Yayına Hazırlanma: "v2.7.2/yayina-hazirlanma.md"
-              - Pre-render (SEO): "v2.7.2/prerender.md"
-          - "Kurulumdan Sonra":
-              - Güncelleme Geldiğinde: "v2.7.2/guncelleme-geldiginde.md"
-              - Environment Variables (.env): "v2.7.2/environment-variables.md"
-              - Admin Hesabı Açma: "v2.7.2/admin-kullanicisi.md"
+    - Ana sayfa: index.md
+    - Kurulum & Çalıştırma:
+          - Gereken Programlar: gereken-programlar.md
+          - Yükleme Talimatları: yukleme-talimatlari.md
+          - Yayına Hazırlanma: yayina-hazirlanma.md
+          - Pre-render (SEO): prerender.md
+    - Özelleştirme:
+          - Front-end:
+                - Config Dosyalarını Düzenleme: front-end-configdeki-dosyalari-duzenleme.md
+                - Yeni Sayfa Ekleme: yeni-sayfa-ekleme.md
+                - Temayı Düzenleme: temayi-duzenleme.md
+          - Node-server:
+                - Özel İzleme ve İndirme Siteleri Tanımlama: ozel-izleme-ve-indirme-sitesi-tanimlama.md
+          - Environment Variables (.env): environment-variables.md
+    - Kurulumdan Sonra:
+          - Güncelleme Geldiğinde: guncelleme-geldiginde.md
+          - Admin Hesabı Açma: admin-kullanicisi.md
+    - v2'den v3'e Geçerken:
+          - Neler değişti?: v2-v3.md
+          - Nasıl güncellerim?: v2-v3-gecis-adimlari.md
+    - Eski Sürümler:
+          - v2.7.2:
+                - Ana sayfa: v2.7.2/index.md
+                - Kurulum & Çalıştırma:
+                      - Gereken Programlar: v2.7.2/gereken-programlar.md
+                      - Yükleme Talimatları: v2.7.2/yukleme-talimatlari.md
+                      - Yayına Hazırlanma: v2.7.2/yayina-hazirlanma.md
+                      - Pre-render (SEO): v2.7.2/prerender.md
+                - Kurulumdan Sonra:
+                      - Güncelleme Geldiğinde: v2.7.2/guncelleme-geldiginde.md
+                      - Environment Variables (.env): v2.7.2/environment-variables.md
+                      - Admin Hesabı Açma: v2.7.2/admin-kullanicisi.md
 google_analytics:
-  - "UA-82378950-4"
-  - "auto"
+    - "UA-82378950-4"
+    - "auto"
 extra:
-  social:
-    - icon: fontawesome/solid/globe
-      link: "https://fgl.moe/"
-    - icon: fontawesome/brands/github
-      link: "https://github.com/ayberktandogan"
-    - icon: fontawesome/brands/linkedin
-      link: "https://www.linkedin.com/in/ayberk-tandogan/"
+    social:
+        - icon: fontawesome/solid/globe
+          link: "https://fgl.moe/"
+        - icon: fontawesome/brands/github
+          link: "https://github.com/ayberktandogan"
+        - icon: fontawesome/brands/linkedin
+          link: "https://www.linkedin.com/in/ayberk-tandogan/"
 theme:
-  language: "tr"
-  logo: "assets/images/logo.png"
-  favicon: "assets/images/favicon.ico"
-  font:
-    text: Open Sans
-    code: Source Code Pro
-  feature:
-    instant: true
-    tabs: false
-  name: material
+    name: material
+    custom_dir: overrides
+    language: "tr"
+    logo: "assets/images/logo.png"
+    favicon: "assets/images/favicon.ico"
+    include_search_page: false
+    search_index_only: true
+    palette:
+        primary: deep purple
+        accent: green
+        scheme: slate
+    font:
+        text: Open Sans
+        code: Source Code Pro
+    features:
+        - instant
+        - tabs
+    icon:
+        repo: fontawesome/brands/github
 markdown_extensions:
-  - admonition
-  - pymdownx.superfences
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.tabbed
-  - codehilite
+    - admonition
+    - pymdownx.superfences
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.tabbed
+    - codehilite:
+          use_pygments: True
+          noclasses: True
+          pygments_style: monokai
+    - meta
 extra_css:
-  - "assets/css/extra.css"
+    - "assets/css/extra.css"
+edit_uri: ""
 plugins:
-  - search:
-      separator: '[\s\-\.]+'
-      lang:
-        - tr
-  - git-revision-date-localized
-  - minify:
-      minify_html: true
+    - search:
+          separator: '[\s\-\.]+'
+          lang:
+              - tr
+    - git-revision-date-localized
+    - minify:
+          minify_html: true
 copyright: <a href="https://ayberktandogan.github.io" target="_blank" rel="noopener noreferrer">ayberktandogan © 2020</a>
