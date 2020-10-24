@@ -1,5 +1,5 @@
 # Yayına Hazırlanma
-^^Bu aşamaya geçmeden önce lütfen [Yükleme Talimatları](/yukleme-talimatlari/) sayfasındaki adımları izleyin.^^
+^^Bu aşamaya geçmeden önce lütfen [Yükleme Talimatları](../yukleme-talimatlari/) sayfasındaki adımları izleyin.^^
 
 [ForFansubs Back-end Node Server Repo](https://github.com/ForFansubs/node-server) karşıdan sadece API servisi olarak görünebilir, ancak bu servis, client ve admin paketlerini serve etmekten de sorumlu. Bu yüzden yayında sadece bu paketi kullanacağız. Diğer paketler front-end'i build'lememize yarayacak. Güncelleme geldikçe tekrardan build edip, aşağıdaki adımları izlerseniz, servisinizi rahatça güncelleyebilirsiniz.
 

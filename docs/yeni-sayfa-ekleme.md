@@ -79,7 +79,7 @@ Bu objeyi oluştururken dikkat etmeniz gereken önemli iki kısım var. Birincis
 
 Yukardaki örneği kullandığınızda
 
-![Ek sayfa örnek](assets/images/EkSayfaOrnek.png)
+![Ek sayfa örnek](../assets/images/EkSayfaOrnek.png)
 
 böyle bir sonuça ulaşırsınız.
 

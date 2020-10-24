@@ -11,7 +11,7 @@ Bu sayfada öğrenebileceklerinizle sidebar'ınızdaki linkleri, ekip alımları
 
 Ekleyeceğiniz linkler
 
-![Sidebar Link Örnek](assets/images/SidebarLinkOrnek.png)
+![Sidebar Link Örnek](../assets/images/SidebarLinkOrnek.png)
 
 Destek Ol kısmının altındaki çizgiden sonra gösterilecektir. Paketi indirdiğinizde `./src/config/drawer_items.js` dosyasında örnek bir Discord linki zaten eklenmiş olacaktır. Bu örneği isterseniz silebilir, isterseniz de düzenleyerek kullanabilirsiniz.
 
@@ -54,7 +54,7 @@ Destek Ol kısmının altındaki çizgiden sonra gösterilecektir. Paketi indird
 
 Ekleyeceğiniz linkler
 
-![Footer Link Örnek](assets/images/FooterLinkOrnek.png)
+![Footer Link Örnek](../assets/images/FooterLinkOrnek.png)
 
 menü butonlarının altında, ForFansubs yazısının üstünde gösterilecektir.
 
@@ -87,7 +87,7 @@ menü butonlarının altında, ForFansubs yazısının üstünde gösterilecekti
 
 Ekleyeceğiniz paneller
 
-![Ekip Alımları Sayfası Örnek](assets/images/EkipAlimlariSayfasiOrnek.png)
+![Ekip Alımları Sayfası Örnek](../assets/images/EkipAlimlariSayfasiOrnek.png)
 
 sayfa içerisinde bu şekilde gösterilecektir.
 
@@ -132,7 +132,7 @@ sayfa içerisinde bu şekilde gösterilecektir.
 
 Sayfaya ekleyeceğiniz Markdown formatlı text
 
-![SSS Sayfası Örnek](assets/images/SSSSayfasiOrnek.png)
+![SSS Sayfası Örnek](../assets/images/SSSSayfasiOrnek.png)
 
 bu formatta gösterilecektir.
 
