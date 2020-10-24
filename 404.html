@@ -1,6 +1,4 @@
 
-
-
 <!doctype html>
 <html lang="tr" class="no-js">
   <head>
@@ -15,7 +13,7 @@
         <meta name="author" content="Ayberk Tandoğan">
       
       <link rel="shortcut icon" href="/docs/assets/images/favicon.ico">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.3">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.0">
     
     
       
@@ -23,19 +21,21 @@
       
     
     
-      <link rel="stylesheet" href="/docs/assets/stylesheets/main.947af8d5.min.css">
-      
-        <link rel="stylesheet" href="/docs/assets/stylesheets/palette.7f672a1f.min.css">
-      
+      <link rel="stylesheet" href="/docs/assets/stylesheets/main.bc7e593a.min.css">
       
         
+        <link rel="stylesheet" href="/docs/assets/stylesheets/palette.ab28b872.min.css">
         
-        <meta name="theme-color" content="#7e57c2">
+          
+          
+          <meta name="theme-color" content="#7e56c2">
+        
       
     
     
     
       
+        
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700%7CSource+Code+Pro&display=fallback">
         <style>body,input{font-family:"Open Sans",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Source Code Pro",SFMono-Regular,Consolas,Menlo,monospace}</style>
@@ -45,23 +45,67 @@
     
       <link rel="stylesheet" href="/docs/assets/css/extra.css">
     
-    
+     
       
         
 <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-82378950-4","auto"),ga("set","anonymizeIp",!0),ga("send","pageview"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}),document.addEventListener("DOMContentSwitch",function(){ga("send","pageview",document.location.pathname)})</script>
 <script async src="https://www.google-analytics.com/analytics.js"></script>
       
     
+
+<!-- Track external links -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.body.addEventListener("click", (ev) => {
+            if (ev.target instanceof HTMLElement) {
+                var el = ev.target.closest("a[href^=http]");
+                if (el) ga("send", "event", "outbound", "click", el.href);
+            }
+        });
+    });
+</script>
+
     
+
+<!-- Determine title -->
+<title>ForFansubs Wiki</title>
+ 
+
+<!-- The image needs to have an absolute URL -->
+
+
+<!-- Open graph meta tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="ForFansubs Wiki" />
+<meta property="og:description" content="ForFansubs paketlerinin nasıl kullanılacağını öğreten wiki" />
+<meta property="og:url" content="" />
+<meta property="og:image" content="https://forfansubs.github.io/docs/assets/images/banner.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+<!-- Twitter meta tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@squidfunk" />
+<meta name="twitter:creator" content="@squidfunk" />
+<meta name="twitter:title" content="ForFansubs Wiki" />
+<meta name="twitter:description" content="ForFansubs paketlerinin nasıl kullanılacağını öğreten wiki" />
+<meta name="twitter:image" content="https://forfansubs.github.io/docs/assets/images/banner.png" />
+
+<!-- Extra stylesheets -->
+<link rel="stylesheet" href="/docs/assets/stylesheets/overrides.css" />
+
   </head>
   
   
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="green">
-  
     
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="green">
+      
+  
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
@@ -70,9 +114,18 @@
     </div>
     <div data-md-component="announce">
       
+        <aside class="md-announce">
+          <div class="md-announce__inner md-grid md-typeset">
+             Projeyi canlıda görmek istiyorsanız
+<a href="https://fgl.moe">fgl.moe</a> adresini ziyaret edebilirsiniz. 
+          </div>
+        </aside>
+      
     </div>
     
-      <header class="md-header" data-md-component="header">
+      
+
+<header class="md-header" data-md-component="header">
   <nav class="md-header-nav md-grid" aria-label="Header">
     <a href="https://forfansubs.github.io/docs/" title="ForFansubs Wiki" class="md-header-nav__button md-logo" aria-label="ForFansubs Wiki">
       
@@ -145,8 +198,6 @@
 </header>
     
     <div class="md-container" data-md-component="container">
-      
-        
       
       
         
@@ -255,7 +306,9 @@
               <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="https://forfansubs.github.io/docs/" title="ForFansubs Wiki" class="md-nav__button md-logo" aria-label="ForFansubs Wiki">
       
@@ -286,7 +339,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/." title="Ana sayfa" class="md-nav__link">
+    <a href="/docs/." class="md-nav__link">
       Ana sayfa
     </a>
   </li>
@@ -303,15 +356,11 @@
     
     <label class="md-nav__link" for="nav-2">
       Kurulum & Çalıştırma
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
+      <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Kurulum & Çalıştırma" data-md-level="1">
       <label class="md-nav__title" for="nav-2">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+        <span class="md-nav__icon md-icon"></span>
         Kurulum & Çalıştırma
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -323,7 +372,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/gereken-programlar/" title="Gereken Programlar" class="md-nav__link">
+    <a href="/docs/gereken-programlar/" class="md-nav__link">
       Gereken Programlar
     </a>
   </li>
@@ -335,7 +384,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/yukleme-talimatlari/" title="Yükleme Talimatları" class="md-nav__link">
+    <a href="/docs/yukleme-talimatlari/" class="md-nav__link">
       Yükleme Talimatları
     </a>
   </li>
@@ -347,7 +396,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/yayina-hazirlanma/" title="Yayına Hazırlanma" class="md-nav__link">
+    <a href="/docs/yayina-hazirlanma/" class="md-nav__link">
       Yayına Hazırlanma
     </a>
   </li>
@@ -359,7 +408,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/prerender/" title="Pre-render (SEO)" class="md-nav__link">
+    <a href="/docs/prerender/" class="md-nav__link">
       Pre-render (SEO)
     </a>
   </li>
@@ -381,15 +430,11 @@
     
     <label class="md-nav__link" for="nav-3">
       Özelleştirme
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
+      <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Özelleştirme" data-md-level="1">
       <label class="md-nav__title" for="nav-3">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+        <span class="md-nav__icon md-icon"></span>
         Özelleştirme
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -406,15 +451,11 @@
     
     <label class="md-nav__link" for="nav-3-1">
       Front-end
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
+      <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Front-end" data-md-level="2">
       <label class="md-nav__title" for="nav-3-1">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+        <span class="md-nav__icon md-icon"></span>
         Front-end
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -426,7 +467,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/front-end-configdeki-dosyalari-duzenleme/" title="Config Dosyalarını Düzenleme" class="md-nav__link">
+    <a href="/docs/front-end-configdeki-dosyalari-duzenleme/" class="md-nav__link">
       Config Dosyalarını Düzenleme
     </a>
   </li>
@@ -438,7 +479,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/yeni-sayfa-ekleme/" title="Yeni Sayfa Ekleme" class="md-nav__link">
+    <a href="/docs/yeni-sayfa-ekleme/" class="md-nav__link">
       Yeni Sayfa Ekleme
     </a>
   </li>
@@ -450,7 +491,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/temayi-duzenleme/" title="Temayı Düzenleme" class="md-nav__link">
+    <a href="/docs/temayi-duzenleme/" class="md-nav__link">
       Temayı Düzenleme
     </a>
   </li>
@@ -472,15 +513,11 @@
     
     <label class="md-nav__link" for="nav-3-2">
       Node-server
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
+      <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Node-server" data-md-level="2">
       <label class="md-nav__title" for="nav-3-2">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+        <span class="md-nav__icon md-icon"></span>
         Node-server
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -492,7 +529,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/ozel-izleme-ve-indirme-sitesi-tanimlama/" title="Özel İzleme ve İndirme Siteleri Tanımlama" class="md-nav__link">
+    <a href="/docs/ozel-izleme-ve-indirme-sitesi-tanimlama/" class="md-nav__link">
       Özel İzleme ve İndirme Siteleri Tanımlama
     </a>
   </li>
@@ -509,7 +546,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/environment-variables/" title="Environment Variables (.env)" class="md-nav__link">
+    <a href="/docs/environment-variables/" class="md-nav__link">
       Environment Variables (.env)
     </a>
   </li>
@@ -531,15 +568,11 @@
     
     <label class="md-nav__link" for="nav-4">
       Kurulumdan Sonra
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
+      <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Kurulumdan Sonra" data-md-level="1">
       <label class="md-nav__title" for="nav-4">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+        <span class="md-nav__icon md-icon"></span>
         Kurulumdan Sonra
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -551,7 +584,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/guncelleme-geldiginde/" title="Güncelleme Geldiğinde" class="md-nav__link">
+    <a href="/docs/guncelleme-geldiginde/" class="md-nav__link">
       Güncelleme Geldiğinde
     </a>
   </li>
@@ -563,7 +596,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/admin-kullanicisi/" title="Admin Hesabı Açma" class="md-nav__link">
+    <a href="/docs/admin-kullanicisi/" class="md-nav__link">
       Admin Hesabı Açma
     </a>
   </li>
@@ -585,15 +618,11 @@
     
     <label class="md-nav__link" for="nav-5">
       v2'den v3'e Geçerken
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
+      <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="v2'den v3'e Geçerken" data-md-level="1">
       <label class="md-nav__title" for="nav-5">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+        <span class="md-nav__icon md-icon"></span>
         v2'den v3'e Geçerken
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -605,7 +634,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/v2-v3/" title="Neler değişti?" class="md-nav__link">
+    <a href="/docs/v2-v3/" class="md-nav__link">
       Neler değişti?
     </a>
   </li>
@@ -617,7 +646,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/v2-v3-gecis-adimlari/" title="Nasıl güncellerim?" class="md-nav__link">
+    <a href="/docs/v2-v3-gecis-adimlari/" class="md-nav__link">
       Nasıl güncellerim?
     </a>
   </li>
@@ -639,15 +668,11 @@
     
     <label class="md-nav__link" for="nav-6">
       Eski Sürümler
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
+      <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Eski Sürümler" data-md-level="1">
       <label class="md-nav__title" for="nav-6">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+        <span class="md-nav__icon md-icon"></span>
         Eski Sürümler
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -664,15 +689,11 @@
     
     <label class="md-nav__link" for="nav-6-1">
       v2.7.2
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
+      <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="v2.7.2" data-md-level="2">
       <label class="md-nav__title" for="nav-6-1">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+        <span class="md-nav__icon md-icon"></span>
         v2.7.2
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -684,7 +705,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/v2.7.2/" title="Ana sayfa" class="md-nav__link">
+    <a href="/docs/v2.7.2/" class="md-nav__link">
       Ana sayfa
     </a>
   </li>
@@ -701,15 +722,11 @@
     
     <label class="md-nav__link" for="nav-6-1-2">
       Kurulum & Çalıştırma
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
+      <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Kurulum & Çalıştırma" data-md-level="3">
       <label class="md-nav__title" for="nav-6-1-2">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+        <span class="md-nav__icon md-icon"></span>
         Kurulum & Çalıştırma
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -721,7 +738,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/v2.7.2/gereken-programlar/" title="Gereken Programlar" class="md-nav__link">
+    <a href="/docs/v2.7.2/gereken-programlar/" class="md-nav__link">
       Gereken Programlar
     </a>
   </li>
@@ -733,7 +750,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/v2.7.2/yukleme-talimatlari/" title="Yükleme Talimatları" class="md-nav__link">
+    <a href="/docs/v2.7.2/yukleme-talimatlari/" class="md-nav__link">
       Yükleme Talimatları
     </a>
   </li>
@@ -745,7 +762,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/v2.7.2/yayina-hazirlanma/" title="Yayına Hazırlanma" class="md-nav__link">
+    <a href="/docs/v2.7.2/yayina-hazirlanma/" class="md-nav__link">
       Yayına Hazırlanma
     </a>
   </li>
@@ -757,7 +774,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/v2.7.2/prerender/" title="Pre-render (SEO)" class="md-nav__link">
+    <a href="/docs/v2.7.2/prerender/" class="md-nav__link">
       Pre-render (SEO)
     </a>
   </li>
@@ -779,15 +796,11 @@
     
     <label class="md-nav__link" for="nav-6-1-3">
       Kurulumdan Sonra
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
-      </span>
+      <span class="md-nav__icon md-icon"></span>
     </label>
     <nav class="md-nav" aria-label="Kurulumdan Sonra" data-md-level="3">
       <label class="md-nav__title" for="nav-6-1-3">
-        <span class="md-nav__icon md-icon">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-        </span>
+        <span class="md-nav__icon md-icon"></span>
         Kurulumdan Sonra
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
@@ -799,7 +812,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/v2.7.2/guncelleme-geldiginde/" title="Güncelleme Geldiğinde" class="md-nav__link">
+    <a href="/docs/v2.7.2/guncelleme-geldiginde/" class="md-nav__link">
       Güncelleme Geldiğinde
     </a>
   </li>
@@ -811,7 +824,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/v2.7.2/environment-variables/" title="Environment Variables (.env)" class="md-nav__link">
+    <a href="/docs/v2.7.2/environment-variables/" class="md-nav__link">
       Environment Variables (.env)
     </a>
   </li>
@@ -823,7 +836,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/docs/v2.7.2/admin-kullanicisi/" title="Admin Hesabı Açma" class="md-nav__link">
+    <a href="/docs/v2.7.2/admin-kullanicisi/" class="md-nav__link">
       Admin Hesabı Açma
     </a>
   </li>
@@ -932,15 +945,15 @@
       
     </div>
     
-      <script src="/docs/assets/javascripts/vendor.c3dc8c49.min.js"></script>
-      <script src="/docs/assets/javascripts/bundle.f9edbbd5.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Kopyala", "clipboard.copied": "Kopyaland\u0131", "search.config.lang": "tr", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Aramaya ba\u015flamak i\u00e7in yaz\u0131n", "search.result.none": "E\u015fle\u015fen dok\u00fcman bulunamad\u0131", "search.result.one": "1 dok\u00fcman bulundu", "search.result.other": "# dok\u00fcman bulundu"}</script>
+      <script src="/docs/assets/javascripts/vendor.6a3d08fc.min.js"></script>
+      <script src="/docs/assets/javascripts/bundle.71201edf.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Kopyala", "clipboard.copied": "Kopyaland\u0131", "search.config.lang": "tr", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Ara", "search.result.placeholder": "Aramaya ba\u015flamak i\u00e7in yaz\u0131n", "search.result.none": "E\u015fle\u015fen dok\u00fcman bulunamad\u0131", "search.result.one": "1 dok\u00fcman bulundu", "search.result.other": "# dok\u00fcman bulundu", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
           base: "/docs/",
-          features: ["instant", "tabs"],
+          features: ['navigation.tabs', 'navigation.instant'],
           search: Object.assign({
-            worker: "/docs/assets/javascripts/worker/search.8e2cddea.min.js"
+            worker: "/docs/assets/javascripts/worker/search.4ac00218.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
