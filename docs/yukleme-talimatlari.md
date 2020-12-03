@@ -15,7 +15,7 @@ Gereken programları indirdiyseniz, boş bir klasör açın.
 ## Geliştirme ortamını oluşturma
 
 ### Back-end
-node-server-master dosyasının içinde bir komut ekranı açın. 
+`node-server` dosyasının içinde bir komut ekranı açın. 
 
 - Komut ekranına `npm install` yazın. Bu komut servisi çalıştırabilmeniz için gereken paketleri indirip kuracak.
 
@@ -29,7 +29,7 @@ node-server-master dosyasının içinde bir komut ekranı açın.
     Memurai ya da Redis'in kurulu olduğundan emin olun. İndirme linklerini [buradan](../gereken-programlar) bulabilirsiniz. Sonrasında [bu sayfadaki](../prerender) kurulum aşamalarını takip edin.
 
 ### Front-end Client
-front-end-master dosyasının içinde bir komut ekranı açın.
+`front-end` dosyasının içinde bir komut ekranı açın.
 
 - `npm install` yazın.
 
@@ -87,7 +87,7 @@ kodunu yapıştırabilirsiniz.
 `npm start` yazarak geliştirici ortamını açabilirsiniz.
 
 ### Front-end Admin
-front-end-admin-master dosyasının içinde bir komut ekranı açın.
+`front-end-admin` dosyasının içinde bir komut ekranı açın.
 
 - `npm install` yazın.
 

@@ -9,21 +9,21 @@
 
 Gerekli bütün resimleri ilgili dosyalara attığınızdan, `./src/config` dosyasında bulunan `recruitment_panels.js` dosyanına en azından bir panel eklediğinizden emin olun. Çünkü bu dosya boş olsa bile sidebarda Ekip Alımları sekmesi gözükmeye devam ediyor ve kullanıcı sayfaya girdiğinde boş bir sayfayla karşılaşıyor.
  
-front-end-master dosyasının içinde bir komut ekranı açın.
+`front-end` dosyasının içinde bir komut ekranı açın.
 
 - `npm run build` yazın. Bu komutla beraber {==./==} altında {==./build==} klasörünün oluşturulduğunu göreceksiniz.
 
 ### Front-end Admin
-front-end-admin-master dosyasının içinde bir komut ekranı açın.
+`front-end-admin` dosyasının içinde bir komut ekranı açın.
 
 - `npm run build` yazın. Bu komutla beraber {==./==} altında {==./build==} klasörünün oluşturulduğunu göreceksiniz.
 
 ## Back-end'i yayına hazırlamak
-- node-server-master dosyasının içine {==./admin==} ve {==./client==} klasörlerini oluşturun.
+- `node-server` dosyasının içine {==./admin==} ve {==./client==} klasörlerini oluşturun.
 
-- {==./front-end-master/build==} klasörünün içindeki tüm dosyaları kesip, {==./node-server-master/client==} dosyasının içerisine yapıştırın.
+- {==./front-end/build==} klasörünün içindeki tüm dosyaları kesip, {==./node-server/client==} dosyasının içerisine yapıştırın.
 
-- {==./front-end-admin-master/build==} klasörünün içindeki tüm dosyaları kesip, {==./node-server-master/admin==} dosyasının içerisine yapıştırın.
+- {==./front-end-admin/build==} klasörünün içindeki tüm dosyaları kesip, {==./node-server/admin==} dosyasının içerisine yapıştırın.
 
 - {==.env.example==} dosyasını kopyalayıp, dosya ismini {==.env==} yapın ve içerisindeki boş kısımları doldurun. {>>NODE_ENV=production<<}
 
