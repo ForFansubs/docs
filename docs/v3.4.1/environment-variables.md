@@ -28,7 +28,6 @@ Yükleme ve yayın sayfalarında .env'den bahsedip durduk. Bu dosyalar, servisin
     REDIS_OPTIONS={}                // RedisJS'in createClient fonksiyonunda aldığı options objesi https://redis.js.org/#-api-rediscreateclient
     REDIS_CACHE_TIMEOUT=            // Redis cache süresi (saniye)
     REVERSE_PROXY=                  // Eğer reverse proxy kullanıyorsanız bu değeri true olarak ayarlamanız gerekiyor (Heroku, Bluemix, AWS ELB, Nginx vs.)
-    SYSTEM_LANG="tr"                // Sistemde kullanılacak dil. [tr,en]
     ```
 
 !!! note "Front-end Client .env"
@@ -39,10 +38,8 @@ Yükleme ve yayın sayfalarında .env'den bahsedip durduk. Bu dosyalar, servisin
     REACT_APP_HEADER_LOGO_TYPE=     // Bu değeri "gif" yaparak headerınızda hareketli logo kullanabilirsiniz.
     REACT_APP_DISQUS_SHORTNAME=""   // Disqus kısa ismini sağlarsanız anime, manga ve bölüm sayfalarında yorum kısmı gösterir.
     REACT_APP_DEV_API_URL=""        // Dev ortamında istekleri yapmak için kullanacağı alan adı. (http://localhost:5000 gibi)
-    REACT_APP_JIKAN_INSTANCE_URL="" // Jikan instance URL
     REACT_APP_GA_USER_ID=""         // Google Analytics kullanıcı id'niz.
     REACT_APP_SSS_PAGE=""           // SSS sayfası göstermek istiyorsanız, bu seçeneği `true` olarak ayarlayabilirsiniz. UNUTMAYIN! Sayfanın boş gözükmemesi için `sss_page_text.js` dosyasını doldurmanız gerekiyor.
-    REACT_APP_DEFAULT_LANG="tr"     // Varsayılan dil. [tr,en]
 
     REACT_APP_META_DESCRIPTION=     // Sitenin description metasında kullanılacak text.
     REACT_APP_META_AUTHOR=          // Sitenin author metasında kullanılacak text.
@@ -55,5 +52,4 @@ Yükleme ve yayın sayfalarında .env'den bahsedip durduk. Bu dosyalar, servisin
     REACT_APP_SITEURL=              // Sitenin isim alanı. (https://example.com)
     REACT_APP_DEV_API_URL=          // Dev ortamında istekleri yapmak için kullanacağı alan adı. (http://localhost:5000 gibi)
     REACT_APP_HEADER_LOGO_TYPE=     // Bu değeri "gif" yaparak headerınızda hareketli logo kullanabilirsiniz.
-    REACT_APP_DEFAULT_LANG=""       // Varsayılan dil. [tr,en]
     ``` 

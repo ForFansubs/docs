@@ -8,7 +8,7 @@
 !!! important "yarn"
     [Yarn](https://yarnpkg.com/lang/en/)'ı buradan indirebilirsiniz.
 !!! important "MariaDB"
-    [MariaDB](https://mariadb.org/)'yi buradan indirebilirsiniz. {>>^10.5.x<<}
+    [MariaDB](https://mariadb.org/)'yi buradan indirebilirsiniz. {>>^10.3<<}
 !!! important "Git"
     [git](https://git-scm.com/)'i buradan indirebilirsiniz. {>>2.23.0<<}
 !!! note "Memurai ya da Redis"

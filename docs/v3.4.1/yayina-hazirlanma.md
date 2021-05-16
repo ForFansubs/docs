@@ -11,21 +11,21 @@ Gerekli bütün resimleri ilgili dosyalara attığınızdan, `./src/config` dosy
  
 `front-end` dosyasının içinde bir komut ekranı açın.
 
-- `npm run build` yazın. Bu komutla beraber `.` altında `./build` klasörünün oluşturulduğunu göreceksiniz.
+- `npm run build` yazın. Bu komutla beraber {==./==} altında {==./build==} klasörünün oluşturulduğunu göreceksiniz.
 
 ### Front-end Admin
 `front-end-admin` dosyasının içinde bir komut ekranı açın.
 
-- `npm run build` yazın. Bu komutla beraber `.` altında `./build` klasörünün oluşturulduğunu göreceksiniz.
+- `npm run build` yazın. Bu komutla beraber {==./==} altında {==./build==} klasörünün oluşturulduğunu göreceksiniz.
 
 ## Back-end'i yayına hazırlamak
-- `node-server` dosyasının içine yoksa `./admin`, `./client`, `./images/manga_episodes`, `./images/metadata` ve `./images/static` klasörlerini oluşturun. `./images/static` klasörünün içerisine diğer paketlere koymuş olduğunuz `logo.png` dosyasını koyun.
+- `node-server` dosyasının içine {==./admin==} ve {==./client==} klasörlerini oluşturun.
 
-- `./front-end/build` klasörünün içindeki tüm dosyaları kesip, `./node-server/client` dosyasının içerisine yapıştırın.
+- {==./front-end/build==} klasörünün içindeki tüm dosyaları kesip, {==./node-server/client==} dosyasının içerisine yapıştırın.
 
-- `./front-end-admin/build` klasörünün içindeki tüm dosyaları kesip, `./node-server/admin` dosyasının içerisine yapıştırın.
+- {==./front-end-admin/build==} klasörünün içindeki tüm dosyaları kesip, {==./node-server/admin==} dosyasının içerisine yapıştırın.
 
-- `.env.example` dosyasını kopyalayıp, dosya ismini `.env` yapın ve içerisindeki boş kısımları doldurun. {>>NODE_ENV=production<<}
+- {==.env.example==} dosyasını kopyalayıp, dosya ismini {==.env==} yapın ve içerisindeki boş kısımları doldurun. {>>NODE_ENV=production<<}
 
 ---
 
@@ -34,7 +34,7 @@ Aşağıdaki seçeneklerden birisini kullanarak, servisinizi yayına çıkarabil
 === "pm2 Kullanarak"
     `pm2` paketi nasıl kullanılır detaylarına girmeyeceğim. Nasıl kurulduğuna [buradaki linkten](https://pm2.keymetrics.io/) ulaşabilirsiniz. Neden kullanacağız derseniz de, pm2'nin normalde scriptler yazarak elde edebileceğimiz şeyleri otomatik bir şekilde yapabildiği için. En basitinden, servis çöktüğü zaman yeniden başlatması, bir dosya değiştiğinde servisi yeniden başlatması vs. Bütün bu özelliklere ve detaylara yukardaki linkten ulaşabilirsiniz.
 
-    node-server dosyanızın içerisinde `ecosystem.config.js` adlı bir dosya açın. İçerisinde aşağıdaki örnek gibi bir ayar objesi çıkarmanız gerekiyor. Bu ayarları neye göre değiştireceğinize, nasıl kullanacağınıza [buradaki linkten](https://pm2.keymetrics.io/docs/usage/application-declaration/) ulaşabilirsiniz. Özellikle cluster modunun nasıl kullanılacağını öğrenirseniz servisi çok rahatlatabilirsiniz.
+    node-server dosyanızın içerisinde {==ecosystem.config.js==} adlı bir dosya açın. İçerisinde aşağıdaki örnek gibi bir ayar objesi çıkarmanız gerekiyor. Bu ayarları neye göre değiştireceğinize, nasıl kullanacağınıza [buradaki linkten](https://pm2.keymetrics.io/docs/usage/application-declaration/) ulaşabilirsiniz. Özellikle cluster modunun nasıl kullanılacağını öğrenirseniz servisi çok rahatlatabilirsiniz.
     ```js
     module.exports = {
     apps: [{

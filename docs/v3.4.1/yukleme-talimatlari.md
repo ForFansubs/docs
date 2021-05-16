@@ -1,5 +1,5 @@
 # Yükleme Talimatları
-Gereken programları indirdiyseniz, boş bir klasör oluşturun. İçerisinde yeni bir komut ekranı açın.
+Gereken programları indirdiyseniz, boş bir klasör açın.
 
 ## Repoları indirme
 
@@ -15,15 +15,15 @@ Gereken programları indirdiyseniz, boş bir klasör oluşturun. İçerisinde ye
 ## Geliştirme ortamını oluşturma
 
 ### Back-end
-`node-server` dosyasının içinde bir komut ekranı açın.
+`node-server` dosyasının içinde bir komut ekranı açın. 
 
 - Komut ekranına `npm install` yazın. Bu komut servisi çalıştırabilmeniz için gereken paketleri indirip kuracak.
 
 - `./models` klasöründeki SQL dosyasını SQL sunucunuza import edin. {>>Dosya içerisinde bütün yetkilerin olduğu Yönetici rolü hazır geliyor. Ancak herhangi bir kullanıcı bulunmamakta. Sistemi kurduktan sonra yeni bir kullanıcı açıp, sonrasında rolünü database üzerinden yonetici olarak ayarlamanız gerekiyor. Şu aşamada servisin herhangi bir setup özelliği bulunmamakta.<<}
 
-- `.env.example` dosyasını kopyalayıp, dosya ismini `.env` yapın ve içerisindeki boş kısımları doldurun. (Gerekli bilgiye [buradan](../environment-variables) ulaşabilirisiniz.){>>NODE_ENV=development<<}
+- `.env.example` dosyasını kopyalayıp, dosya ismini `.env` yapın ve içerisindeki boş kısımları doldurun. {>>NODE_ENV=development<<}
 
-- Komut ekranına `npm run server` yazın. Bu komutla beraber servis, geliştirme ortamına uygun bir şekilde açılacaktır {>>hot-load dahil<<}. ^^http://localhost:5000^^ yolundan servise ulaşabilirsiniz. Ancak şu an size hata verecektir. Çünkü sunacağı dosyaları compile edip gerekli dosyalara koymadık. (Verdiği hatalara bağlı olarak gereken klasörleri oluşturabilirsiniz.)
+- Komut ekranına `npm run server` yazın. Bu komutla beraber servis, geliştirme ortamına uygun bir şekilde açılacaktır {>>hot-load dahil<<}. ^^http://localhost:5000^^ yolundan servise ulaşabilirsiniz. Ancak şu an size hata verecektir. Çünkü sunacağı dosyaları compile edip gerekli dosyalara koymadık.
 
 !!! note "Yeni SEO özelliğini kullanacaksanız"
     Memurai ya da Redis'in kurulu olduğundan emin olun. İndirme linklerini [buradan](../gereken-programlar) bulabilirsiniz. Sonrasında [bu sayfadaki](../prerender) kurulum aşamalarını takip edin.
@@ -44,7 +44,7 @@ Gereken programları indirdiyseniz, boş bir klasör oluşturun. İçerisinde ye
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Your site name</title>
+        <title>Site name</title>
       </head>
       <body>
         <noscript>
@@ -102,7 +102,7 @@ kodunu yapıştırabilirsiniz.
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Your site name | Admin Panel</title>
+        <title>Site name</title>
       </head>
       <body>
         <noscript>
